@@ -1,0 +1,30 @@
+{
+  "name": "node-scrap",
+  "version": "1.0.0",
+  "description": "node JS for scraping",
+  "main": "scrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "scrap"
+  ],
+  "author": "Sidorenkov Ivan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "http": "0.0.0",
+    "iconv-lite": "^0.5.1",
+    "jsdom": "^16.2.1",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "needle": "^2.3.3",
+    "nodemon": "^2.0.2",
+    "puppeteer": "^2.1.1",
+    "request": "^2.88.2",
+    "tress": "^1.1.4"
+  }
+}
