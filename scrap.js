@@ -1,85 +1,65 @@
-// var request = require("request"),
-//     cheerio = require("cheerio"),
-//     url = "https://tea4u.by/puer/shen";
-// request(url, function (error, response, body) {
-//     if (!error) {
-//         var $ = cheerio.load(body),
-//             url = $("div.product-thumb:nth-child(1) div.caption>a"),
-//             title = $("div.product-thumb:nth-child(1) a>img"),
-//             image = $("div.product-thumb:nth-child(1) a>img");
-//         console.log(url.attr("href") + '\n'
-//             + title.attr("title") + '\n'
-//             + image.attr("src"));
-//     } else {
-//         console.log("Произошла ошибка: " + error);
-//     }
-// });
+let needle = require("needle");
+let cheerio = require("cheerio");
+let tress = require("tress");
+let fs = require("fs");
 
-var request = require("request"),
-    cheerio = require("cheerio"),
-    siteUrl = "https://tea4u.by",
-    products = [];
+let siteUrl = "https://tea4u.by";
+let results = [];
 
-/*requestForCategoruUrls(urlOfSite, function (error, response, body) {
-    if (!error) {
-        var $ = cheerio1.load(body);
-        $("#menu ul.navbar-nav li > a").each((i,elem) => {
-            var href = $(elem).attr("href");
-            if (href.search("javascript") == -1) {
-                categoryUrls.push({
-                    urls: href
-                });
-            }
+function start() {
+    needle.get(siteUrl, (err, res) => {
+        if (err) throw err;
+        let $ = cheerio.load(res.body);
+        $("#menu ul li a[href^='https']").each((ind, el) => {
+            q.push($(el).attr("href"));
         });
-        console.log(categoryUrls);
-    }
-    console.log(categoryUrls.length);
-});
+    });
+}
 
-var urlZel = "https://tea4u.by/puer/shen";
-requestForProducts(urlZel, function (error, response, body) {
-    if (!error) {
-        var $ = cheerio1.load(body);
-        $("div.product-thumb").each((i, el) => {
-            products.push({
-                url: $(el).find("div.caption>a").attr("href"),
-                imageUrl: $(el).find("a>img").attr("src"),
-                title: $(el).find("div.caption>a").text()
+// `tress` последовательно вызывает наш обработчик для каждой ссылки в очереди
+let q = tress(function(url, callback) {
+
+    //тут мы обрабатываем страницу с адресом url
+    needle.get(url, function (err, res) {
+        if (err) throw err;
+
+        // здесь делаем парсинг страницы из res.body
+        let $ = cheerio.load(res.body);
+
+        // делаем results.push для данных о товаре
+        // делаем q.push для ссылок на обработку
+
+        // товар
+        // если использовать здесь функцию-стрелку () => {} , то $(this) работать не будет! (this - эквивалент el в данном случае)
+        $(".product-thumb").each(function(i, el) {
+            let imgUrl = $(el).find(".image > a > img").attr("src");
+            let a = $(el).find(".caption > a");
+            let title = a.text();
+            let productUrl = a.attr("href");
+            results.push({
+                imageURL: imgUrl,
+                title : title,
+                productURL: productUrl
             });
         });
-        console.log(products);
-    }
-});*/
-var catCount = 0;
-var prodCount = 0;
 
-request(siteUrl, function (err, response, body) {
-    if (err) throw err;
-    var $ = cheerio.load(body);
-
-    $("#menu ul.navbar-nav li > a").each((i, elem) => {
-        var href = $(elem).attr("href");
-        if (href.search("javascript") === -1) {
-            console.log(href);
-            request(href, catCallback);
+        // паджинатор
+        let pli = $("ul.pagination li");
+        if (pli.length >= 4 && !pli.eq(-1).hasClass("active")) {
+            // console.log(url + " : paginator length = " + pli.length);
+            // console.log("next page " + pli.eq(-2).children("a").attr("href"));
+            q.push(pli.eq(-2).children("a").attr("href"));
         }
+        
+
+        callback(); //вызываем callback в конце
     });
 });
 
-var catCallback = function (err, response, body) {
-    catCount++;
-    if (err) throw err;
-    var $ = cheerio.load(body);
-    $("div.product-thumb").each((i, el) => {
-        var p = {
-            url: $(el).find("div.caption>a").attr("href"),
-            imageUrl: $(el).find("a>img").attr("src"),
-            title: $(el).find("div.caption>a").text()
-        };
-        products.push(p);
-        console.log(p);
-        ++prodCount;
-    });
-    console.log(prodCount);
-    console.log(catCount);
+// эта функция выполнится, когда в очереди закончатся ссылки
+q.drain = function () {
+    fs.writeFileSync('./data.json', JSON.stringify(results, null, 4));
 };
+
+// добавляем в очередь ссылки на категории из меню
+start();
