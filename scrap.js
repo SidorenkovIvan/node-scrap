@@ -5,15 +5,18 @@ let sqlite3 = require("sqlite3").verbose();
 let fs = require("fs");
 let siteUrl = "https://tea4u.by";
 let results = [];
-let category = [];
+let category = {};
+
 function start() {
     needle.get(siteUrl, (err, res) => {
         if (err) throw err;
         let $ = cheerio.load(res.body);
         $("#menu ul li a[href^='https']").each((ind, el) => {
-            //q.push($(el).attr("href"));
-            console.log($(el).text().replace(/-/g, '').trim());
+            let h = $(el).attr("href");
+            q.push(h);
+            category[h] = $(el).text().replace(/[^А-Яа-я0-9,Ёё]/g, ' ').trim();
         });
+        console.log(category);
     });
 }
 
@@ -33,11 +36,14 @@ let q = tress(function(url, callback) {
             let a = $(el).find(".caption > a");
             let title = a.text();
             let productUrl = a.attr("href");
+            let categoryURL = productUrl.substr(0, productUrl.lastIndexOf('/'));
+            let categoryTitle = category[categoryURL];
             results.push([
                 imgUrl,
                 title,
                 productUrl,
-
+                categoryURL,
+                categoryTitle
             ]);
         });
         // паджинатор
@@ -54,8 +60,8 @@ q.drain = function () {
     let dataBase = new sqlite3.Database('scraper.sqlite');
     dataBase.serialize(() => {
        dataBase.run('DROP TABLE IF EXISTS scraper');
-       dataBase.run('CREATE TABLE scraper (imageURL TEXT, title TEXT, productURL TEXT)');
-       let stmt = dataBase.prepare('INSERT INTO scraper VALUES (?, ?, ?)');
+       dataBase.run('CREATE TABLE scraper (imageURL TEXT, title TEXT, productURL TEXT, categoryURL TEXT, categoryTitle TEXT)');
+       let stmt = dataBase.prepare('INSERT INTO scraper VALUES (?, ?, ?, ?, ?)');
        for (let i = 0; i < results.length; i++) {
            stmt.run(results[i]);
        }
@@ -66,4 +72,4 @@ q.drain = function () {
 };
 
 // добавляем в очередь ссылки на категории из меню
-start(); 
+start();
