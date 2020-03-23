@@ -2,7 +2,7 @@
   "name": "node-scrap",
   "version": "1.0.0",
   "description": "node JS for scraping",
-  "main": "scrap.js",
+  "main": "scraper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
