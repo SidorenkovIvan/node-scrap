@@ -89,7 +89,7 @@ let q = tress(function(url, callback) {
 
 // эта функция выполнится, когда в очереди закончатся ссылки
 q.drain = function () {
-    let dataBase = new sqlite3.Database('scraper.sqlite');
+    let dataBase = new sqlite3.Database('data.sqlite');
     dataBase.serialize(() => {
        dataBase.run('DROP TABLE IF EXISTS category');
        dataBase.run('CREATE TABLE category (' +
