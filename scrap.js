@@ -7,15 +7,21 @@ let siteUrl = "https://tea4u.by";
 let results = [];
 let category = {};
 let product = {};
+let prodId = 0;
 
 function start() {
     needle.get(siteUrl, (err, res) => {
         if (err) throw err;
         let $ = cheerio.load(res.body);
+        let id = 0;
         $("#menu ul li a[href^='https']").each((ind, el) => {
             let h = $(el).attr("href");
             q.push(h);
-            category[h] = $(el).text().replace(/[^А-Яа-я0-9,Ёё]/g, ' ').trim();
+            category[h] = {
+                id: ++id,
+                title: $(el).text().replace(/[^А-Яа-я0-9,Ёё]/g, ' ').trim(),
+                url: h
+            };
         });
         //console.log(category);
     });
@@ -36,6 +42,13 @@ let q = tress(function(url, callback) {
             console.log(code);
             if (!("description" in product[code])) {
                 product[code].description = $("#tab-description > div").text();
+                let imgs = [];
+                let first = $(".thumbnails.image-thumb > a").attr("href");
+                if (first != null) imgs.push(first);
+                $(".thumbnails.image-additional a.item.thumbnail").each(function (i,e) {
+                    imgs.push( $(e).attr("href") );
+                });
+                product[code].images = imgs;
             }
         }
         else {
@@ -47,7 +60,7 @@ let q = tress(function(url, callback) {
                 let productTitle = a.text();
                 let productUrl = a.attr("href");
                 let categoryURL = productUrl.substr(0, productUrl.lastIndexOf('/'));
-                let categoryTitle = category[categoryURL];
+                let categoryTitle = category[categoryURL].title;
                 results.push([
                     imgUrl,
                     productTitle,
@@ -56,9 +69,9 @@ let q = tress(function(url, callback) {
                     categoryTitle
                 ]);
                 let productCode = $(el).find(".additional .code > span").text();
-                let p = {imgUrl, productTitle, productUrl, categoryURL};
+                let p = {imgUrl, productTitle, productUrl, categoryURL, categoryTitle};
                 if (!(productCode in product)) {
-                    product[productCode] = {prods: [p]};
+                    product[productCode] = {id: ++prodId, prods: [p]};
                 } else {
                     product[productCode].prods.push(p);
                 }
@@ -78,16 +91,56 @@ let q = tress(function(url, callback) {
 q.drain = function () {
     let dataBase = new sqlite3.Database('scraper.sqlite');
     dataBase.serialize(() => {
-       dataBase.run('DROP TABLE IF EXISTS scraper');
-       dataBase.run('CREATE TABLE scraper (imageURL TEXT, title TEXT, productURL TEXT, categoryURL TEXT, categoryTitle TEXT)');
-       let stmt = dataBase.prepare('INSERT INTO scraper VALUES (?, ?, ?, ?, ?)');
-       for (let i = 0; i < results.length; i++) {
-           stmt.run(results[i]);
-       }
+       dataBase.run('DROP TABLE IF EXISTS category');
+       dataBase.run('CREATE TABLE category (' +
+           ' "category_id" INTEGER NOT NULL UNIQUE, ' +
+           ' "title" TEXT, ' +
+           ' "url" TEXT UNIQUE, ' +
+           ' PRIMARY KEY("category_id") );');
+       let stmt = dataBase.prepare('INSERT INTO category VALUES (?, ?, ?)');
+       for (const u in category)
+           stmt.run(category[u].id, category[u].title, category[u].url);
        stmt.finalize();
+       dataBase.run('DROP TABLE IF EXISTS product');
+       dataBase.run('CREATE TABLE product (' +
+        ' "product_id" INTEGER NOT NULL UNIQUE, ' +
+        ' "imgUrl" TEXT, ' +
+        ' "productTitle" TEXT, ' +
+        ' "productUrl" TEXT, ' +
+        ' "description"	TEXT, ' +
+        ' "images" TEXT, ' +
+        ' "code" TEXT, ' +
+        ' PRIMARY KEY("product_id") );');
+       let stmt1 = dataBase.prepare('INSERT INTO product VALUES (?, ?, ?, ?, ?, ?, ?)');
+       let foreign = [];
+       for (const c in product) {
+           for (let p of product[c].prods) {
+               foreign.push([category[p.categoryURL].id, product[c].id]);
+           }
+           stmt1.run(product[c].id,
+               product[c].prods[0].imgUrl,
+               product[c].prods[0].productTitle,
+               product[c].prods[0].productUrl,
+               product[c].description,
+               product[c].images.join('|'),
+               c);
+       }
+       stmt1.finalize();
+       dataBase.run('DROP TABLE IF EXISTS category_product');
+       dataBase.run('CREATE TABLE category_product (' +
+           ' "category_id" INTEGER NOT NULL, ' +
+           ' "product_id" INTEGER NOT NULL, ' +
+           ' FOREIGN KEY("product_id") REFERENCES "product"("product_id"), ' +
+           ' PRIMARY KEY("category_id","product_id"), ' +
+           ' FOREIGN KEY("category_id") REFERENCES "category"("category_id") );');
+       let stmt2 = dataBase.prepare('INSERT INTO category_product VALUES (?, ?)');
+       for (const f of foreign)
+           stmt2.run(f[0], f[1]);
+       stmt2.finalize();
        dataBase.close();
     });
     fs.writeFileSync('./data.json', JSON.stringify(product, null, 4));
+    //console.log("total unique products " + prodId);
 };
 
 // добавляем в очередь ссылки на категории из меню
