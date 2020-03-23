@@ -1,814 +1,1218 @@
-[
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01735/IMG_9115-330x220.jpg",
-        "Жасминовая жемчужина дракона (Хуа Лун Чжу) 1 категории",
-        "https://tea4u.by/zelenyj-chaj/zhasminovaya-zhemchuzhina-drakona-hua-lun-chzhu",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01014/IMG_9970-330x220.jpg",
-        "Бай Мао Хоу (Беловолосая обезьяна)",
-        "https://tea4u.by/zelenyj-chaj/baj-mao-hou-belovolosaya-obezjyana",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01018/IMG_0126-330x220.jpg",
-        "Би Ло Чунь (Изумрудные Спирали Весны)",
-        "https://tea4u.by/zelenyj-chaj/bi-lo-chun-izumrudnye-spirali-vesny",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01006/IMG_0157-330x220.jpg",
-        "Ганпаудер (крупный лист)",
-        "https://tea4u.by/zelenyj-chaj/ganpauder-krupnyj-list",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/32020/IMG_5956-330x220.jpg",
-        "Ганпаудер Высший сорт",
-        "https://tea4u.by/zelenyj-chaj/ganpauder-vysshij-sort",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/XFG4398/IMG_0356-330x220.jpg",
-        "Дянь Люй (Зелёный Юньнань)",
-        "https://tea4u.by/zelenyj-chaj/dyan-lyuj",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A11001/IMG_0476(1)-330x220.jpg",
-        "Жасминовый чай №1",
-        "https://tea4u.by/zelenyj-chaj/zhasminovyj-chaj-1",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/XFG4355/IMG_0376-330x220.jpg",
-        "Зелёная Улитка",
-        "https://tea4u.by/zelenyj-chaj/zelenaya-ulitka",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/5011K1/IMG_8464-330x220.jpg",
-        "Моли Фэн Янь (Жасминовый Глаз Феникса)",
-        "https://tea4u.by/zelenyj-chaj/moli-fen-yan-zhasminovyj-glaz-feniksa",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/65372K7/IMG_9467-330x220.jpg",
-        "Моли Хуа Ча (Жасминовый) Высшей Категории",
-        "https://tea4u.by/zelenyj-chaj/moli-hua-cha-zhasminovyj-vysshej-kategorii",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/0018K2/IMG_8561-330x220.jpg",
-        "Да Хун Пао (Большой красный халат) ",
-        "https://tea4u.by/ulun/da-hun-pao-bolshoj-krasnyj-halat",
-        "https://tea4u.by/ulun",
-        "Улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/52066-1/IMG_8092-330x220.jpg",
-        "Да Хун Пао (Большой красный халат) 1 категории",
-        "https://tea4u.by/ulun/da-hun-pao-bolshoj-krasnyj-halat-1-kategorii",
-        "https://tea4u.by/ulun",
-        "Улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01308/IMG_9065-330x220.jpg",
-        "Да Хун Пао (Большой красный халат) Премиум, слабая обжарка",
-        "https://tea4u.by/ulun/da-hun-pao-bolshoj-krasnyj-halat-premium-slabaya-obzharka",
-        "https://tea4u.by/ulun",
-        "Улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01316/IMG_9062-330x220.jpg",
-        "Жоу Гуй",
-        "https://tea4u.by/ulun/zhou-guj",
-        "https://tea4u.by/ulun",
-        "Улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01309/IMG_9052-330x220.jpg",
-        "Ми Лань Сян",
-        "https://tea4u.by/ulun/mi-lan-syan",
-        "https://tea4u.by/ulun",
-        "Улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/XFT494/IMG_0388-330x220.jpg",
-        "TIE GUAN YIN (Те Гуань Инь)",
-        "https://tea4u.by/ulun/tie-guan-yin-te-guan-in",
-        "https://tea4u.by/ulun",
-        "Улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01360/IMG_9042-330x220.jpg",
-        "Алишань Улун",
-        "https://tea4u.by/ulun/alishan-ulun",
-        "https://tea4u.by/ulun",
-        "Улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/5107K5/IMG_8831-330x220.jpg",
-        "Красный Улун",
-        "https://tea4u.by/ulun/krasnyj-ulun",
-        "https://tea4u.by/ulun",
-        "Улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/52129/IMG_5875-330x220.jpg",
-        "Молочный улун (Най Сян) ",
-        "https://tea4u.by/ulun/molochnyj-ulun-naj-syan",
-        "https://tea4u.by/ulun",
-        "Улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
-        "Подарочный набор чая №1",
-        "https://tea4u.by/ulun/podarochnyj-nabor-chaya-1",
-        "https://tea4u.by/ulun",
-        "Улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/1091K1/IMG_8439-330x220.jpg",
-        "Габа Алишань выдержанный тёмный",
-        "https://tea4u.by/ulun/gaba-ulun/gaba-alishan-vyderzhannyj-temnyj",
-        "https://tea4u.by/ulun/gaba-ulun",
-        "Габа улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01389/IMG_0149-330x220.jpg",
-        "Габа Алишань красная",
-        "https://tea4u.by/ulun/gaba-ulun/gaba-alishan-krasnaya",
-        "https://tea4u.by/ulun/gaba-ulun",
-        "Габа улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/5107K5/IMG_8831-330x220.jpg",
-        "Красный Улун",
-        "https://tea4u.by/ulun/gaba-ulun/krasnyj-ulun",
-        "https://tea4u.by/ulun/gaba-ulun",
-        "Габа улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01505_1/IMG_9100-330x220.jpg",
-        "Гун Тин (Императорский Пуэр) г. Линцан",
-        "https://tea4u.by/puer/shu/gun-tin-imperatorskij-puer-g-lincan",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A13501/IMG_9868-330x220.jpg",
-        "\"Лэ Фэн\" Шу пуэр HHC TEA 2016г. (плитка 36г)",
-        "https://tea4u.by/puer/shu/le-fen-shu-puer-hhc-tea-2016g-plitka-36g",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A13503/IMG_9709-1-330x220.jpg",
-        "\"Хун Си\" Шу пуэр HHC TEA 2015г. (плитка 50г)",
-        "https://tea4u.by/puer/shu/hun-si-shu-puer-hhc-tea-2015g-plitka-50g",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A13156/IMG_9316-330x220.jpg",
-        "Гун Тин Гун Бин 2018г. (357г блин)",
-        "https://tea4u.by/puer/shu/gun-tin-gun-bin-2018g-357g-blin",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A13157/IMG_9309-330x220.jpg",
-        "Гун Тин Лан Сян 2018г. (357г блин)",
-        "https://tea4u.by/puer/shu/gun-tin-lan-syan--2018g-357g-blin",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02643/IMG_0022-330x220.jpg",
-        "Гун Тин Пуэр \"Бань Чжан Гушу\"  (фаб. Кан Пинь) сбор 2015 г. 357г блин",
-        "https://tea4u.by/puer/shu/gun-tin-puer-ban-chzhan-gushu-fab-kan-pin-yunnan-menhaj-2015-god",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02712/IMG_0190-330x220.jpg",
-        "Каменный пуэр (Ча Хуа Ши) точа (8 г)",
-        "https://tea4u.by/puer/shu/kamennyj-puer-cha-hua-shi-tocha-8-g",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A13117/IMG_9491-330x220.jpg",
-        "Лао Тун Чжи (Старый товарищ) 9978 (2018г.блин 357г)",
-        "https://tea4u.by/puer/shu/lao-tun-chzhi-staryj-tovarisch-9978-2018g",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
-        "Подарочный набор чая №5",
-        "https://tea4u.by/puer/shu/podarochnyj-nabor-chaya-5",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01510/IMG_0123-330x220.jpg",
-        "Пуэр Шоколад",
-        "https://tea4u.by/puer/shu/puer-shokolad",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A13507/IMG_9712-330x220.jpg",
-        "\"Чэнь жунь лао чжуань\" Шен пуэр HHC TEA 2015г. (2 плитки по 50г)",
-        "https://tea4u.by/puer/shen/chen-zhun-lao-chzhuan",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A13116/IMG_9506-330x220.jpg",
-        "Лао Тун Чжи (Старый товарищ) 918 (2014г.блин 200г)",
-        "https://tea4u.by/puer/shen/lao-tun-chzhi-staryj-tovarisch-918",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A13121/IMG_9478-330x220.jpg",
-        "Лао Тун Чжи (Старый товарищ) 9948 (2018г.блин 357г)",
-        "https://tea4u.by/puer/shen/lao-tun-chzhi-staryj-tovarisch-9948-2018g-blin-357g",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/52213-1/IMG_6048-330x220.jpg",
-        "Пуэрные почки (Люй Я Бао)",
-        "https://tea4u.by/puer/shen/puernye-pochki-ljuj-ja-bao",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/52300/IMG_8364-330x220.jpg",
-        "Шен пуэр \"1902\" фабрика Сягуань сбор 2014г  (357 гр блин)",
-        "https://tea4u.by/puer/shen/shen-puer-\"1902\"-fabrika-syaguan-sbor-2014g-357-gr-blin",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02650/IMG_0034-330x220.jpg",
-        "Шен Пуэр \"И У Чжен Шань\" (фаб. Цзин май), 2019 г. (357г блин)",
-        "https://tea4u.by/puer/shen/shen-puer-i-u-chzhen-shan-fab-czin-maj-2019-g-357g-blin",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02648/IMG_0013-330x220.jpg",
-        "Шен Пуэр \"Лао бань Чжан\" (ручное производство Сишуанбаньна) 2008г. (357г блин)",
-        "https://tea4u.by/puer/shen/shen-puer-lao-ban-chzhan-ruchnoe-proizvodstvo-sishuanbanna-2008g-357g-blin",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02649/IMG_9980-330x220.jpg",
-        "Шен Пуэр \"Чай со старых деревьев тысячи лет\" (фаб. Цзин май) 2010г. (357г блин)",
-        "https://tea4u.by/puer/shen/shen-puer-chaj-so-staryh-derevjev-tysyachi-let",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02645/IMG_9990-330x220.jpg",
-        "Шен Пуэр \"Чем выдержаннее, тем ароматнее\" (фаб. Жень Гуань) 2018г. (357г блин)",
-        "https://tea4u.by/puer/shen/shen-puer-chem-vyderzhannee-tem-aromatnee-fab-zhen-guan-2018g-357g-blin",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02849/IMG_9296-330x220.jpg",
-        "Шен пуэр \"Чун Цзень Ча\" (фаб. Пу Вэн, 2006г.) блин 400г",
-        "https://tea4u.by/puer/shen/shen-puer-chun-czen-cha-fab-pu-ven-2006g-blin-400g",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01472/IMG_9138-330x220.jpg",
-        "Дянь Хун со старых деревьев блин 357 г (фаб. Юндэ Сюлинь, Линцан 2015 г.)",
-        "https://tea4u.by/krasnyj/dyan-hun-so-staryh-derevjev-blin-357-g-fab-yunde-syulin-lincan-2015-g",
-        "https://tea4u.by/krasnyj",
-        "Красный"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A12001/IMG_9856-330x220.jpg",
-        "Дянь Хун №1",
-        "https://tea4u.by/krasnyj/dyan-hun-1",
-        "https://tea4u.by/krasnyj",
-        "Красный"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/5100EK4/IMG_8617-330x220.jpg",
-        "Золотая Игла (Дянь Хун Цзинь Хао)",
-        "https://tea4u.by/krasnyj/zolotaya-igla-dyan-hun-czin-hao",
-        "https://tea4u.by/krasnyj",
-        "Красный"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02900/IMG_0159-330x220.jpg",
-        "Кенийский чёрный чай",
-        "https://tea4u.by/krasnyj/kenijskij-chernyj-chaj",
-        "https://tea4u.by/krasnyj",
-        "Красный"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02226/IMG_0168-330x220.jpg",
-        "Махагастотт OP (Нувара Элия)",
-        "https://tea4u.by/krasnyj/mahagastott-op-nuvara-eliya",
-        "https://tea4u.by/krasnyj",
-        "Красный"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
-        "Подарочный набор чая №5",
-        "https://tea4u.by/krasnyj/podarochnyj-nabor-chaya-5",
-        "https://tea4u.by/krasnyj",
-        "Красный"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/CH4523/IMG_8829-330x220.jpg",
-        "Тань Ян Гун Фу Хун Ча (Красный чай высшего мастерства из Тань Ян)",
-        "https://tea4u.by/krasnyj/tan-yan-gun-fu-hun-cha-krasnyj-chaj-vysshego-masterstva-iz-tan-yan",
-        "https://tea4u.by/krasnyj",
-        "Красный"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01407/IMG_0146-330x220.jpg",
-        "Фуцзянь Хун Ча (Красный чай из Фуцзяня)",
-        "https://tea4u.by/krasnyj/fuczyan-hun-cha-krasnyj-chaj-iz-fuczyanya",
-        "https://tea4u.by/krasnyj",
-        "Красный"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01441/IMG_0138-330x220.jpg",
-        "Хун Цзин Ло (Золотая улитка)",
-        "https://tea4u.by/krasnyj/hun-czin-lo-zolotaya-ulitka",
-        "https://tea4u.by/krasnyj",
-        "Красный"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/0189K1/IMG_8467-330x220.jpg",
-        "Чёрная жемчужина с ароматом Личи",
-        "https://tea4u.by/krasnyj/chernaya-zhemchuzhina-s-aromatom-lichi",
-        "https://tea4u.by/krasnyj",
-        "Красный"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01735/IMG_9115-330x220.jpg",
-        "Жасминовая жемчужина дракона (Хуа Лун Чжу) 1 категории",
-        "https://tea4u.by/belyj-chaj/zhasminovaya-zhemchuzhina-drakona-hua-lun-chzhu",
-        "https://tea4u.by/belyj-chaj",
-        "Белый"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/52141/IMG_5559-330x220.jpg",
-        "Белый лотос благоденствия (Бай Юй Лянь)",
-        "https://tea4u.by/belyj-chaj/belyj-lotos-blagodenstvija-baj-juj-ljan",
-        "https://tea4u.by/belyj-chaj",
-        "Белый"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/52213-1/IMG_6048-330x220.jpg",
-        "Пуэрные почки (Люй Я Бао)",
-        "https://tea4u.by/belyj-chaj/puernye-pochki-ljuj-ja-bao",
-        "https://tea4u.by/belyj-chaj",
-        "Белый"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/5020K1/IMG_8437-330x220.jpg",
-        "Серебряные иглы (Бай Хао Инь Чжень)",
-        "https://tea4u.by/belyj-chaj/serebryanye-igly-baj-hao-in-chzhen",
-        "https://tea4u.by/belyj-chaj",
-        "Белый"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A15005/IMG_9852-330x220.jpg",
-        "Юэ Гуан Бай (Белый лунный свет)",
-        "https://tea4u.by/belyj-chaj/yue-guan-baj-belyj-lunnyj-svet",
-        "https://tea4u.by/belyj-chaj",
-        "Белый"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01810/IMG_9048-330x220.jpg",
-        "Ку Цяо (Тайваньский гречишный чай)",
-        "https://tea4u.by/matcha-etnicheskij-chaj/kucyao-tajvanskij-grechishnyj-chaj",
-        "https://tea4u.by/matcha-etnicheskij-chaj",
-        "Матча, этнический чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01875/IMG_9110-330x220.jpg",
-        "Кудин сычуаньский \"Лю Шуй\"",
-        "https://tea4u.by/matcha-etnicheskij-chaj/kudin-sychuanskij-lyu-shuj",
-        "https://tea4u.by/matcha-etnicheskij-chaj",
-        "Матча, этнический чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01905/IMG_9078-330x220.jpg",
-        "Матча (HOKUSAN & CO., LTD, Япония)",
-        "https://tea4u.by/matcha-etnicheskij-chaj/matcha",
-        "https://tea4u.by/matcha-etnicheskij-chaj",
-        "Матча, этнический чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
-        "Подарочный набор чая №2",
-        "https://tea4u.by/matcha-etnicheskij-chaj/podarochnyj-nabor-chaya-2",
-        "https://tea4u.by/matcha-etnicheskij-chaj",
-        "Матча, этнический чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
-        "Подарочный набор чая №3",
-        "https://tea4u.by/matcha-etnicheskij-chaj/podarochnyj-nabor-chaya-3",
-        "https://tea4u.by/matcha-etnicheskij-chaj",
-        "Матча, этнический чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01837/IMG_9081-330x220.jpg",
-        "Тайский синий чай Матча",
-        "https://tea4u.by/matcha-etnicheskij-chaj/tajskij-sinij-chaj-matcha",
-        "https://tea4u.by/matcha-etnicheskij-chaj",
-        "Матча, этнический чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01908/7448.970-330x220.jpg",
-        "Токусен Матча (HOKUSAN & CO., LTD, Япония)",
-        "https://tea4u.by/matcha-etnicheskij-chaj/tokusen-matcha",
-        "https://tea4u.by/matcha-etnicheskij-chaj",
-        "Матча, этнический чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/35015/IMG_8189-330x220.jpg",
-        "Венский Вальс",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya/venskij-vals",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya",
-        "На основе китайского чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/0001K2/IMG_8588-330x220.jpg",
-        "Земляника со сливками ",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya/zemlyanika-so-slivkami",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya",
-        "На основе китайского чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/52129/IMG_5875-330x220.jpg",
-        "Молочный улун (Най Сян) ",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya/molochnyj-ulun-naj-syan",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya",
-        "На основе китайского чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01510/IMG_0123-330x220.jpg",
-        "Пуэр Шоколад",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya/puer-shokolad",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya",
-        "На основе китайского чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/CH01-02/IMG_8989-330x220.jpg",
-        "Шоколадный улун",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya/shokoladnyj-ulun",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya",
-        "На основе китайского чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/5041K7/IMG_9470-330x220.jpg",
-        "Груша-Гранат",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya/grusha-granat",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya",
-        "На основе чёрного чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/CH01-05/IMG_9933-330x220.jpg",
-        "Домашний очаг",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya/domashnij-ochag",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya",
-        "На основе чёрного чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S03042/IMG_9240-330x220.jpg",
-        "Имбирный Пряник",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya/imbirnyj-pryanik",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya",
-        "На основе чёрного чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S03566/IMG_9232-330x220.jpg",
-        "Мелодия любви (Premium)",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya/melodiya-lyubvi-premium",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya",
-        "На основе чёрного чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S03051/IMG_9228-330x220.jpg",
-        "Мятный апельсин",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya/myatnyj-apelsin",
-        "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya",
-        "На основе чёрного чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/200008/IMG_8736-330x220.jpg",
-        "Гайвань \"Хризантема малая\" 150мл",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/gajvan-hrizantema-malaya-150ml",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/003881/IMG_7660-330x220.jpg",
-        "\"Бамбук\" с пружинкой-фильтром в носике, 600 мл., дно d90 мм.",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/bambuk-s-pruzhinkoj-filtrom-v-nosike-600-ml-dno-d90-mm",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A30210/IMG_9355-330x220.jpg",
-        "Гайвань из керамики 170 мл",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/gajvan-iz-keramiki-170-ml",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A01012/IMG_9335-330x220.jpg",
-        "Заварочная колба-термос 300 мл",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/zavarochnaya-kolba-termos-300-ml",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/003850_1_2-330x220.jpg",
-        "Крышка на чайник № 2",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/kryshka-na-chajnik-2",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A40535/IMG_0452(1)-330x220.jpg",
-        "Пиала ЖУ ЯО “Да Ду” 60 мл",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/piala-zhu-yao-da-du-60-ml",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A40537/IMG_0422(1)-330x220.jpg",
-        "Пиала ЖУ ЯО “Чжэн Сян” 65 мл",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/piala-zhu-yao-chzhen-syan-65-ml",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A80204/IMG_0459(1)-330x220.jpg",
-        "Сито ЖУ ЯО “Очаг”",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/sito-zhu-yao-ochag",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A711/IMG_9865-330x220.jpg",
-        "Сито-пружина для чайника",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/sito-pruzhina-dlya-chajnika",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A80130/IMG_0436(1)-330x220.jpg",
-        "Сливник ЖУ ЯО “Классика” 220 мл",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/slivnik-zhu-yao-klassika-220-ml",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
-        "Подарочный набор чая №1",
-        "https://tea4u.by/podarochnye-nabory/podarochnyj-nabor-chaya-1",
-        "https://tea4u.by/podarochnye-nabory",
-        "Подарочные наборы"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
-        "Подарочный набор чая №2",
-        "https://tea4u.by/podarochnye-nabory/podarochnyj-nabor-chaya-2",
-        "https://tea4u.by/podarochnye-nabory",
-        "Подарочные наборы"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
-        "Подарочный набор чая №3",
-        "https://tea4u.by/podarochnye-nabory/podarochnyj-nabor-chaya-3",
-        "https://tea4u.by/podarochnye-nabory",
-        "Подарочные наборы"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
-        "Подарочный набор чая №5",
-        "https://tea4u.by/podarochnye-nabory/podarochnyj-nabor-chaya-5",
-        "https://tea4u.by/podarochnye-nabory",
-        "Подарочные наборы"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
-        "Подарочный набор чая №3",
-        "https://tea4u.by/zelenyj-chaj/podarochnyj-nabor-chaya-3",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/0156K5/IMG_8796-330x220.jpg",
-        "Свежая слива (Чжень Шан Сян Тао)",
-        "https://tea4u.by/zelenyj-chaj/svezhaya-sliva-chzhen-shan-syan-tao",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01924/IMG_0349-330x220.jpg",
-        "Сенча Шидзуока (Сидзуока, Япония)",
-        "https://tea4u.by/zelenyj-chaj/sencha-shidzuoka",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01626/IMG_0173-330x220.jpg",
-        "Сливочная карамель",
-        "https://tea4u.by/zelenyj-chaj/slivochnaya-karamel",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/XFG4438/IMG_0364-330x220.jpg",
-        "Сянг Чха (Xiang Cha Ароматный чай)",
-        "https://tea4u.by/zelenyj-chaj/syang-chha-xiang-cha-aromatnyj-chaj",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01037/IMG_0135-330x220.jpg",
-        "Юньнань Маофен",
-        "https://tea4u.by/zelenyj-chaj/yunnan-maofen",
-        "https://tea4u.by/zelenyj-chaj",
-        "Зелёный чай"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/52047/IMG_7805-330x220.jpg",
-        "Те Гуань Инь (I категории)",
-        "https://tea4u.by/ulun/te-guan-in-i-kategorii",
-        "https://tea4u.by/ulun",
-        "Улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01336/IMG_9123-330x220.jpg",
-        "Те Гуань Инь (Высшей категории)",
-        "https://tea4u.by/ulun/te-guan-in-vysshej-kategorii",
-        "https://tea4u.by/ulun",
-        "Улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/CH01-02/IMG_8989-330x220.jpg",
-        "Шоколадный улун",
-        "https://tea4u.by/ulun/shokoladnyj-ulun",
-        "https://tea4u.by/ulun",
-        "Улун"
-    ],
-    [
-        "https://tea4u.by/image/cache/placeholder-330x220.png",
-        "Пуэр Шу Юй Сяо Бай 2017г (100г блин)",
-        "https://tea4u.by/puer/shu/puer-shu-yuj-syao-baj-2017g-100g-blin",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A13158/IMG_9883-330x220.jpg",
-        "Чэнь Сян Хун Юнь 2017г (357г блин)",
-        "https://tea4u.by/puer/shu/chen-syan-hun-yun-357g",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02644/IMG_0001-330x220.jpg",
-        "Шу пуэр \"Дикий вкус\" (фаб. Жень Гуань) сбор 2015 г. 357г блин",
-        "https://tea4u.by/puer/shu/shu-puer-dikij-vkus-fab-zhen-guan-sbor-2015-g-357g-blin",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01576/IMG_0184-330x220.jpg",
-        "Шу Пуэр \"Кирпичик Императорский\" (5,5 - 6,5 г)",
-        "https://tea4u.by/puer/shu/shu-puer-kirpichik-imperatorskij-5-5-6-5-g",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02572/IMG_9286-330x220.jpg",
-        "Шу Пуэр \"Коллекционный\" (фаб. Маньлэй, Сишуанбаньна 2013 г.) блин 200 г ",
-        "https://tea4u.by/puer/shu/shu-puer-kollekcionnyj-fab-manlej-sishuanbanna-2013-g-blin-200-g",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/XF7852/IMG_0302-330x220.jpg",
-        "Шу пуэр \"Кунминг 7852\" 2017г. (блин 357г)",
-        "https://tea4u.by/puer/shu/shu-puer-kunming-7852",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02565/IMG_9254-330x220.jpg",
-        "Шу Пуэр \"Пуэр Безграничных Гор\" (фаб. Менхай Удао 2013 г.) точа 100 г ",
-        "https://tea4u.by/puer/shu/shu-puer-puer-bezgranichnyh-gor-fab-menhaj-udao-2013-g-tocha-100-g",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02562/IMG_9276-330x220.jpg",
-        "Шу Пуэр \"Юньнань Гушу\" (фаб. Менхай Венья 2012 г.) блин 150 г ",
-        "https://tea4u.by/puer/shu/shu-puer-yunnan-gushu-fab-menhaj-venjya-2012-g-blin-150-g",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02824/IMG_9246-330x220.jpg",
-        "Шу Пуэр 5 лет (кирпичик, 10-11 г)",
-        "https://tea4u.by/puer/shu/shu-puer-5-let-kirpichik-10-11-g",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01548/IMG_0195-330x220.jpg",
-        "Шу пуэр в бамбуке 2014 год, кирпич 250 г",
-        "https://tea4u.by/puer/shu/shu-puer-v-bambuke-2014-god-kirpich-250-g",
-        "https://tea4u.by/puer/shu",
-        "Шу пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S01593/IMG_9205-330x220.jpg",
-        "Шен пуэр кирпич 100 г \"Старые деревья из Буланьшань\"(фаб. Син Бан Чжан, 2013 г.)",
-        "https://tea4u.by/puer/shen/shen-puer-kirpich-100-g-starye-derevjya-iz-bulanshan-fab-sin-ban-chzhan-2013-g",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/S02617/IMG_9149-330x220.jpg",
-        "Шен Пуэр точа 100 г \"Лошадь\" (фаб. Гэнма 2012 г.)",
-        "https://tea4u.by/puer/shen/shen-puer-tocha-100-g-loshad-fab-genma-2012-g",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/52294/IMG_8279-330x220.jpg",
-        "Шен пуэр Фабрика Вэй Ши Хун сбор 2011г 210-250 гр кирпич",
-        "https://tea4u.by/puer/shen/shen-puer-fabrika-vej-shi-hun-sbor-2011g-210-250-gr-kirpich",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A13149/IMG_9323-330x220.jpg",
-        "“Шень Шань Лао Шу” Шен пуэр 2013г. (блин 100г)",
-        "https://tea4u.by/puer/shen/shen-shan-lao-shu-shen-puer-2013g-blin-100g",
-        "https://tea4u.by/puer/shen",
-        "Шен пуэр"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/FR0003K7/315.600-330x220.jpg",
-        "Фильтр-пакет для чайника размер M, 100 шт",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/filtr-paket-dlya-chajnika-razmer-m-100-sht",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A60208/IMG_0446(1)-330x220.jpg",
-        "Чайник ЖУ ЯО “Классика” 250 мл",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/chajnik-zhu-yao-klassika-250-ml",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A60207/IMG_0442(1)-330x220.jpg",
-        "Чайник ЖУ ЯО “Цзин Лань” 250 мл",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/chajnik-zhu-yao-czin-lan-250-ml",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ],
-    [
-        "https://tea4u.by/image/cache/catalog/goods/A60406/2-330x220.jpg",
-        "Чайник стеклянный с деревянной крышкой 600 мл",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/chajnik-steklyannyj-s-derevyannoj-kryshkoj-s",
-        "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya",
-        "Для заваривания чая"
-    ]
-]
+{
+    "35015": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/35015/IMG_8189-330x220.jpg",
+                "productTitle": "Венский Вальс",
+                "productUrl": "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya/venskij-vals",
+                "categoryURL": "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya"
+            }
+        ],
+        "description": "Легкий летний чай на основе улуна с цветками апельсина, лепестками василька, кусочками клубники и сладким ароматом банана."
+    },
+    "52141": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/52141/IMG_5559-330x220.jpg",
+                "productTitle": "Белый лотос благоденствия (Бай Юй Лянь)",
+                "productUrl": "https://tea4u.by/belyj-chaj/belyj-lotos-blagodenstvija-baj-juj-ljan",
+                "categoryURL": "https://tea4u.by/belyj-chaj"
+            }
+        ],
+        "description": "Связанный белый чай из провинции Фуцзянь. Вес 1 шт.  8-9г Настой насыщенный, с цветочным ароматом и фруктовым вкусом с легким карамельным оттенком. Оказывает стимулирующее и общеукрепляющее действие на организм, снимает последствия постоянных перегрузок и стресса. Выдерживает большое количество завариваний - экономичный сорт."
+    },
+    "52294": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/52294/IMG_8279-330x220.jpg",
+                "productTitle": "Шен пуэр Фабрика Вэй Ши Хун сбор 2011г 210-250 гр кирпич",
+                "productUrl": "https://tea4u.by/puer/shen/shen-puer-fabrika-vej-shi-hun-sbor-2011g-210-250-gr-kirpich",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Шен пуэр прессованный в форме кирпича . Настой коньячного цвета с насыщенным вкусом с цветочными нотками и сладковатым послевкусием. Можно заваривать несколько раз."
+    },
+    "52300": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/52300/IMG_8364-330x220.jpg",
+                "productTitle": "Шен пуэр \"1902\" фабрика Сягуань сбор 2014г  (357 гр блин)",
+                "productUrl": "https://tea4u.by/puer/shen/shen-puer-\"1902\"-fabrika-syaguan-sbor-2014g-357-gr-blin",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Классический шен пуэр из провинции Юньнань от известной фабрики Сягуань. Настой желто-зеленого  цвета с ярким вкусом с нотками цветов и сухофруктов, насыщенным ароматом и длительным послевкусием. Выдерживает много завариваний."
+    },
+    "200008": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/200008/IMG_8736-330x220.jpg",
+                "productTitle": "Гайвань \"Хризантема малая\" 150мл",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/gajvan-hrizantema-malaya-150ml",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": "Традиционная фарфоровая посуда для заваривания чая, которая состоит из блюдца, чашки и крышки. Очень удобный заварник для быстрых чаепитий и дегустаций. Благодаря тому, что крышка удерживает аромат чая, такой способ заваривания позволяет в полной мере насладиться напитком. Объём 150 мл"
+    },
+    "S01735": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01735/IMG_9115-330x220.jpg",
+                "productTitle": "Жасминовая жемчужина дракона (Хуа Лун Чжу) 1 категории",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/zhasminovaya-zhemchuzhina-drakona-hua-lun-chzhu",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            },
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01735/IMG_9115-330x220.jpg",
+                "productTitle": "Жасминовая жемчужина дракона (Хуа Лун Чжу) 1 категории",
+                "productUrl": "https://tea4u.by/belyj-chaj/zhasminovaya-zhemchuzhina-drakona-hua-lun-chzhu",
+                "categoryURL": "https://tea4u.by/belyj-chaj"
+            }
+        ],
+        "description": "Белый чай Хуа Лун Чжу традиционно выращивают в провинции Фуцзянь. Делают его ранней весной — чайный лист обрабатывают по технологии белого чая, сворачивают в маленькие жемчужинки и высушивают. К июлю, когда начинает цвести жасмин, чай ароматизируют свежими цветами жасмина. Обычно проходит 3-4 цикла ароматизации.Отличается особенно мягким, нежным вкусом, даже при долгом заваривании настой не становится терпким. Жасмин придаёт чаю неповторимый аромат и особенный вкус. Экономичный сорт, можно заваривать много раз."
+    },
+    "S01014": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01014/IMG_9970-330x220.jpg",
+                "productTitle": "Бай Мао Хоу (Беловолосая обезьяна)",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/baj-mao-hou-belovolosaya-obezjyana",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Зелёный чай из провинции Фуцзянь. Название произошло от исторического места производства этого чая — уезда ЧженХэ — «края диких обезьян». Более того, форма чайного листа в обработанном виде похожа на покрытый белым ворсом хвост обезьянки. Сырьё для этого чая собирают в середине весны, отбирая только 2-3 молодых листочка с почкой, покрытые белым пушком. Сохраняется белый ворс благодаря сочетанию технологических особенностей изготовления зелёного и белого чаёв, за что Бай Мао Хоу на его родине часто называют бело-зелёным.Аромат сухой заварки сладко-фруктовый, с лёгкой свежестью на излёте. Настой насыщенный, цвета слоновой кости. Сладко-фруктовый аромат. Вкус лёгкий, сбалансированный и гармоничный, с фруктовой ноткой и легкой терпкостью. Богат антиоксидантами, омолаживающими организм, и помогает пищеварению. Хорошо бодрит и утоляет жажду."
+    },
+    "S01018": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01018/IMG_0126-330x220.jpg",
+                "productTitle": "Би Ло Чунь (Изумрудные Спирали Весны)",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/bi-lo-chun-izumrudnye-spirali-vesny",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Зелёный весенний чай из провинции Цзянсу. По праву носит титул «Знаменитый чай Китая». Чайные плантации располагаются в горах Дунтиншань вокруг озера Тайху, Би Ло Чунь впитал в себя все целебные свойства горного воздуха и чистых обильных дождей.Аромат сухого чая яркий, фруктовый, с нотками свежей зелени. Вкус яркий и медовый, с оттенками фруктов и цветов. "
+    },
+    "S01006": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01006/IMG_0157-330x220.jpg",
+                "productTitle": "Ганпаудер (крупный лист)",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/ganpauder-krupnyj-list",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Скрученный зелёный чай из провинции Чжецзян, входит в группу классических представителей зелёных сортов чая. Обладает сильными тонизирующими свойствами и всеми полезными свойствами зелёных чаев - улучшает обмен веществ, укрепляет иммунитет, благотворно влияет на сердечно-сосудистую систему. Настой насыщенный, жёлтого цвета, с ярким ароматом с ягодными нотами и крепким вкусом."
+    },
+    "3505K2": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/32020/IMG_5956-330x220.jpg",
+                "productTitle": "Ганпаудер Высший сорт",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/ganpauder-vysshij-sort",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Чай Ганпаудер (Порох) входит в группу классических представителей зелёных сортов чая. В горных долинах, где произрастает чайный лист этого сорта, природой был создан уникальный микроклимат, что благотворно влияет на качество самого чая.Аромат чая с нотами мёда и трав. Вкус сладкий, терпкий с нотами орхидеи и пряными оттенками. Этот чай придаст вам заряд бодрости и сил на весь день. Послевкусие долгое, освежающее. "
+    },
+    "XFG4398": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/XFG4398/IMG_0356-330x220.jpg",
+                "productTitle": "Дянь Люй (Зелёный Юньнань)",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/dyan-lyuj",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Классический зеленый юньнаньский чай, который обладает ярким ароматом и вкусом. Аромат абрикоса и послевкусие сухофруктов создают ощущение весны. Очень богатый букет, несвойственный зеленому классическому чаю в данном ценовом диапазоне. Вкус нежный, без терпкости и горечи."
+    },
+    "A11001": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A11001/IMG_0476(1)-330x220.jpg",
+                "productTitle": "Жасминовый чай №1",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/zhasminovyj-chaj-1",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Роскошный зелёный жасминовый чай из китайской провинции Гуанси. Его настой обладает маслянистым, немного терпким вкусом с явными нотами меда и свежей зелени. Подачу настоя сопровождает богатый оттенками аромат, в котором четко слышатся запахи цветов и спелых ягод. Отличный антидепрессант и иммуномодулятор."
+    },
+    "XFG4355": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/XFG4355/IMG_0376-330x220.jpg",
+                "productTitle": "Зелёная Улитка",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/zelenaya-ulitka",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Приятный освежающий зеленый чай, с легкой терпкостью и довольно мягким вкусом. Отсутствует копченость, присущая Ганпаудерам. Рекомендуется заваривать проливом, чтобы избежать излишнего перенасыщения во вкусе."
+    },
+    "5011K1": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/5011K1/IMG_8464-330x220.jpg",
+                "productTitle": "Моли Фэн Янь (Жасминовый Глаз Феникса)",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/moli-fen-yan-zhasminovyj-glaz-feniksa",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Юньнаньский элитный зелёный чай, ароматизированный высококачественным жасмином. Один из знаменитых жасминовых чаев Китая, внешне напоминающий глаз птицы Феникс. При заваривании  дает прозрачный настой золотисто-зелёного цвета с насыщенным, сладким вкусом и стойким послевкусием. Можно заваривать несколько раз."
+    },
+    "65372K7": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/65372K7/IMG_9467-330x220.jpg",
+                "productTitle": "Моли Хуа Ча (Жасминовый) Высшей Категории",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/moli-hua-cha-zhasminovyj-vysshej-kategorii",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Изысканный традиционный китайский чай, ароматизированный высококачественным жасмином . Обладает неповторимым сладковатым вкусом, нежным и терпким.  Аромат притягивает к себе, снимает нервное напряжение и усталость. При заваривании  дает прозрачный настой золотисто-зелёного цвета с насыщенным вкусом и стойким послевкусием. Можно заваривать несколько раз."
+    },
+    "0001K2": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/0001K2/IMG_8588-330x220.jpg",
+                "productTitle": "Земляника со сливками ",
+                "productUrl": "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya/zemlyanika-so-slivkami",
+                "categoryURL": "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya"
+            }
+        ],
+        "description": "Зелёный чай Ганпаудер с лепестками сафлора (дикого шафрана) и кусочками клубники. С добавлением натурального ароматизатора земляники и ванили."
+    },
+    "0000K3": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/52129/IMG_5875-330x220.jpg",
+                "productTitle": "Молочный улун (Най Сян) ",
+                "productUrl": "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya/molochnyj-ulun-naj-syan",
+                "categoryURL": "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya"
+            },
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/52129/IMG_5875-330x220.jpg",
+                "productTitle": "Молочный улун (Най Сян) ",
+                "productUrl": "https://tea4u.by/ulun/molochnyj-ulun-naj-syan",
+                "categoryURL": "https://tea4u.by/ulun"
+            }
+        ],
+        "description": "Высококачественный элитный Молочный улун  для истинных ценителей чая. Цвет заварки: изумрудно — золотистый. Вкус: мягкий, утонченный  с нотами сливок и молока. Послевкусие: сладковатое."
+    },
+    "S01510": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01510/IMG_0123-330x220.jpg",
+                "productTitle": "Пуэр Шоколад",
+                "productUrl": "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya/puer-shokolad",
+                "categoryURL": "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya"
+            },
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01510/IMG_0123-330x220.jpg",
+                "productTitle": "Пуэр Шоколад",
+                "productUrl": "https://tea4u.by/puer/shu/puer-shokolad",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Шу пуэр из старых чайных садов Юньнань с шоколадным ароматом. Сухой лист тёмный, длинный, крупный с кусочками кэроба. Аромат чайного листа переплетается со сладкими нотами шоколада. Настой густой, ароматный, цвета чёрного янтаря. Вкус настоя пронизан нотками горького шоколада с бархатной горчинкой в послевкусии. Отлично бодрит и поднимает настроение.Кэроб -  бобы рожкового дерева. В кэробе много витаминов (А, В, В2, В3 и D) и минералов (кальций, фосфор, калий и магний, железо, медь, никель, марганец и барий)."
+    },
+    "CH01-02": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/CH01-02/IMG_8989-330x220.jpg",
+                "productTitle": "Шоколадный улун",
+                "productUrl": "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya/shokoladnyj-ulun",
+                "categoryURL": "https://tea4u.by/aromatizirovannyj/na-osnove-kitajskogo-chaya"
+            },
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/CH01-02/IMG_8989-330x220.jpg",
+                "productTitle": "Шоколадный улун",
+                "productUrl": "https://tea4u.by/ulun/shokoladnyj-ulun",
+                "categoryURL": "https://tea4u.by/ulun"
+            }
+        ],
+        "description": "Благодаря трудоемкой, натуральной ароматизации этот китайский улун обладает удивительным сладким вкусом молочного шоколада и шоколадным ароматом. К улуну добавлены кусочки кэроба - это сочетание делает настой особенно нежным. Отлично повышает настроение. Выдерживает несколько завариваний - экономичный сорт.Кэроб -  бобы рожкового дерева. В кэробе много витаминов (А, В, В2, В3 и D) и минералов (кальций, фосфор, калий и магний, железо, медь, никель, марганец и барий)."
+    },
+    "5041K7": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/5041K7/IMG_9470-330x220.jpg",
+                "productTitle": "Груша-Гранат",
+                "productUrl": "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya/grusha-granat",
+                "categoryURL": "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya"
+            }
+        ],
+        "description": "Купаж высококачественного черного цейлонского и индийского крупнолистового чая, лепестки граната, цветки бессмертника, кусочки груши. С добавлением натурального ароматизатора груши и граната"
+    },
+    "CH01-05": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/CH01-05/IMG_9933-330x220.jpg",
+                "productTitle": "Домашний очаг",
+                "productUrl": "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya/domashnij-ochag",
+                "categoryURL": "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya"
+            }
+        ],
+        "description": "Высококачественный чёрный цейлонский чай, плоды кэроба, корица, кусочки яблок, цветки лаванды. Вкус с нотками шоколада, кленового сиропа, корицы и яблока.  Отлично согреет холодными вечерами и подарит ощущение домашнего уюта и тепла."
+    },
+    "S03042": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S03042/IMG_9240-330x220.jpg",
+                "productTitle": "Имбирный Пряник",
+                "productUrl": "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya/imbirnyj-pryanik",
+                "categoryURL": "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya"
+            }
+        ],
+        "description": "Состав - цейлонский чёрный чай, корень имбиря и ароматические масла. Аромат напитка переносит в канун Рождества – согревающий и пряный, со сладкими нотами имбирного пряничного домика. Настой благородного, темно-рубинового цвета с насыщенным пряным вкусом и лёгкой, приятной жгучей нотой."
+    },
+    "S03566": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S03566/IMG_9232-330x220.jpg",
+                "productTitle": "Мелодия любви (Premium)",
+                "productUrl": "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya/melodiya-lyubvi-premium",
+                "categoryURL": "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya"
+            }
+        ],
+        "description": "Состав - премиальные сорта цейлонского черного чая, кубики карамели, сахарная посыпка \"сердечки\", кусочки ягод малины, мальва, ароматические масла. В аромате настоя преобладает аромат отборного цейлонского чая с традиционными фруктовыми нотами, дополненный карамельными и цветочными оттенками. Благородный сладко-терпкий вкус цейлонского чая оттенен сливочно-карамельными нотами, переходящими в приятное, длительное карамельно-терпковатое послевкусие."
+    },
+    "S03051": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S03051/IMG_9228-330x220.jpg",
+                "productTitle": "Мятный апельсин",
+                "productUrl": "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya/myatnyj-apelsin",
+                "categoryURL": "https://tea4u.by/aromatizirovannyj/na-osnove-chernogo-chaya"
+            }
+        ],
+        "description": "Cостав - цейлонский чёрный чай, цедра апельсина, мята, лист смородины и ароматические масла. Настой оттенка чёрного янтаря, густой. В аромате настоя превалируют мятные ноты c цитрусовым оттенком. Во вкусе лёгкая терпкость хорошего черного чая, а в послевкусии мятные и цитрусовые нотки."
+    },
+    "03881": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/003881/IMG_7660-330x220.jpg",
+                "productTitle": "\"Бамбук\" с пружинкой-фильтром в носике, 600 мл., дно d90 мм.",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/bambuk-s-pruzhinkoj-filtrom-v-nosike-600-ml-dno-d90-mm",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": "Заварочный чайник из жаропрочного стекла с пружинкой-фильтром в носике. Объем 600 мл. Процесс заваривания в этом чайнике очень красив, радует душу и глаз. Является продукцией ручного производства. Реальный объем и окраска могут отличаться от заявленного."
+    },
+    "A30210": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A30210/IMG_9355-330x220.jpg",
+                "productTitle": "Гайвань из керамики 170 мл",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/gajvan-iz-keramiki-170-ml",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": "Гайвань с носиком изготовлена из высококачественной керамики (при лёгком постукивании издаёт металлический звук) и покрыта специальной глазурью. Выполнена в старинном стиле и имитирует традиционную посуду для заваривания чая.Ручное производство, цвет и объем может отличаться от заявленного"
+    },
+    "A01012": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A01012/IMG_9335-330x220.jpg",
+                "productTitle": "Заварочная колба-термос 300 мл",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/zavarochnaya-kolba-termos-300-ml",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": "Полностью герметичная заварочная колба-термос имеет двойное стекло и удерживает температуру около полутора часов. Удобная система слива через сито-фильтр без отвинчивания крышки. Цвет крышки - чёрный с бежевым."
+    },
+    "003850-1-2": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/003850_1_2-330x220.jpg",
+                "productTitle": "Крышка на чайник № 2",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/kryshka-na-chajnik-2",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": "Крышка для чайника из стекла. Размер внутреннего диаметра - 59мм. "
+    },
+    "A40535": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A40535/IMG_0452(1)-330x220.jpg",
+                "productTitle": "Пиала ЖУ ЯО “Да Ду” 60 мл",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/piala-zhu-yao-da-du-60-ml",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": "Селадоновая керамика Жу Яо станет прекрасным украшением чайного стола. Подходит для всех видов чая. "
+    },
+    "A40537": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A40537/IMG_0422(1)-330x220.jpg",
+                "productTitle": "Пиала ЖУ ЯО “Чжэн Сян” 65 мл",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/piala-zhu-yao-chzhen-syan-65-ml",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": ""
+    },
+    "A80204": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A80204/IMG_0459(1)-330x220.jpg",
+                "productTitle": "Сито ЖУ ЯО “Очаг”",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/sito-zhu-yao-ochag",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": "Селадоновая керамика Жу Яо станет прекрасным украшением чайного стола. Подходит для всех видов чая. "
+    },
+    "A711": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A711/IMG_9865-330x220.jpg",
+                "productTitle": "Сито-пружина для чайника",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/sito-pruzhina-dlya-chajnika",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": "Сито-пружина для чайника, вставляется в носик с легким натяжением и регулируется фиксатор на кончике. D - 40mm, H - 50mm"
+    },
+    "A80130": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A80130/IMG_0436(1)-330x220.jpg",
+                "productTitle": "Сливник ЖУ ЯО “Классика” 220 мл",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/slivnik-zhu-yao-klassika-220-ml",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": "Селадоновая керамика Жу Яо станет прекрасным украшением чайного стола. Подходит для всех видов чая. "
+    },
+    "SET-01": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
+                "productTitle": "Подарочный набор чая №1",
+                "productUrl": "https://tea4u.by/podarochnye-nabory/podarochnyj-nabor-chaya-1",
+                "categoryURL": "https://tea4u.by/podarochnye-nabory"
+            },
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
+                "productTitle": "Подарочный набор чая №1",
+                "productUrl": "https://tea4u.by/ulun/podarochnyj-nabor-chaya-1",
+                "categoryURL": "https://tea4u.by/ulun"
+            }
+        ],
+        "description": "Набор из трёх видов чая общим весом 150г, упакован в подарочный пакет. Состав набора:1. Молочный улун (Най Сян)  - 50г 2. Шоколадный улун  - 50г 3. Ку Цяо (Тайваньский гречишный чай)   - 50г 4. Подарочный пакет "
+    },
+    "SET-02": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
+                "productTitle": "Подарочный набор чая №2",
+                "productUrl": "https://tea4u.by/podarochnye-nabory/podarochnyj-nabor-chaya-2",
+                "categoryURL": "https://tea4u.by/podarochnye-nabory"
+            },
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
+                "productTitle": "Подарочный набор чая №2",
+                "productUrl": "https://tea4u.by/matcha-etnicheskij-chaj/podarochnyj-nabor-chaya-2",
+                "categoryURL": "https://tea4u.by/matcha-etnicheskij-chaj"
+            }
+        ],
+        "description": "Набор из трёх видов чая общим весом 125г, упакован в подарочный пакет. Состав набора:1. Те Гуань Инь (I категории)   - 25г2. Манговый улун   - 50г3. Ку Цяо (Тайваньский гречишный чай)  - 50г 4. Подарочный пакет"
+    },
+    "SET-03": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
+                "productTitle": "Подарочный набор чая №3",
+                "productUrl": "https://tea4u.by/podarochnye-nabory/podarochnyj-nabor-chaya-3",
+                "categoryURL": "https://tea4u.by/podarochnye-nabory"
+            },
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
+                "productTitle": "Подарочный набор чая №3",
+                "productUrl": "https://tea4u.by/matcha-etnicheskij-chaj/podarochnyj-nabor-chaya-3",
+                "categoryURL": "https://tea4u.by/matcha-etnicheskij-chaj"
+            },
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
+                "productTitle": "Подарочный набор чая №3",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/podarochnyj-nabor-chaya-3",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Набор из трёх видов чая общим весом 75г, упакован в подарочный пакет. Состав набора:1. Матча (Маття, Япония) - 25г 2. Тайский синий чай Матча  - 25г3. Сенча Шидзуока (Сидзуока, Япония) - 25г 4. Подарочный пакет "
+    },
+    "SET-05": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
+                "productTitle": "Подарочный набор чая №5",
+                "productUrl": "https://tea4u.by/podarochnye-nabory/podarochnyj-nabor-chaya-5",
+                "categoryURL": "https://tea4u.by/podarochnye-nabory"
+            },
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
+                "productTitle": "Подарочный набор чая №5",
+                "productUrl": "https://tea4u.by/puer/shu/podarochnyj-nabor-chaya-5",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            },
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/SET-01/IMG_9928-330x220.jpg",
+                "productTitle": "Подарочный набор чая №5",
+                "productUrl": "https://tea4u.by/krasnyj/podarochnyj-nabor-chaya-5",
+                "categoryURL": "https://tea4u.by/krasnyj"
+            }
+        ],
+        "description": " Набор из трёх видов чая общим весом 125г, упакован в подарочный пакет. Состав набора:1. Фуцзянь Хун Ча (Красный чай из Фуцзяня)  - 25г 2. Хун Цзин Ло (Золотая улитка)  - 50г3. Гун Тин (Императорский Пуэр) г. Линцан   - 50г 4. Подарочный пакет "
+    },
+    "1091K1": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/1091K1/IMG_8439-330x220.jpg",
+                "productTitle": "Габа Алишань выдержанный тёмный",
+                "productUrl": "https://tea4u.by/ulun/gaba-ulun/gaba-alishan-vyderzhannyj-temnyj",
+                "categoryURL": "https://tea4u.by/ulun/gaba-ulun"
+            }
+        ],
+        "description": "Сильноферментированный  высокогорный и высококачественный Габа чай из чайного хозяйства Али Шань. Очень нежен и отлично сбалансирован по вкусу, аромату и воздействию - стимулирует работу головного мозга,  улучшает мышление и память,  нормализует работу сердечно-сосудистой  системы, препятствует отмиранию нервных клеток, стимулирует процессы обмена веществ.Настой чая тёмный со сладким ароматом. Вкус сладковатый, фруктовый с шоколадными оттенками. "
+    },
+    "S01389": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01389/IMG_0149-330x220.jpg",
+                "productTitle": "Габа Алишань красная",
+                "productUrl": "https://tea4u.by/ulun/gaba-ulun/gaba-alishan-krasnaya",
+                "categoryURL": "https://tea4u.by/ulun/gaba-ulun"
+            }
+        ],
+        "description": "Чай Габа Алишань красная можно отнести к элитным сортам улуна. Этот чай был выращен в горах Алишань (округ Наньтхоу, Тайвань), обработан по современным технологиям, разработанных в 1987 г. в Японии профессором Цусидой,который изучал изменения метаболизма аминокислот чайного листа. Этот чай производится под строгим контролем государственной организации Тайваньской Станции по изучению и распространению чая.При заваривании получается прекрасный напиток с ярким, чуть сладковатым вкусом с молочными ноткам, кислинкой и свежим цветочным ароматом."
+    },
+    "5107K5": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/5107K5/IMG_8831-330x220.jpg",
+                "productTitle": "Красный Улун",
+                "productUrl": "https://tea4u.by/ulun/gaba-ulun/krasnyj-ulun",
+                "categoryURL": "https://tea4u.by/ulun/gaba-ulun"
+            },
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/5107K5/IMG_8831-330x220.jpg",
+                "productTitle": "Красный Улун",
+                "productUrl": "https://tea4u.by/ulun/krasnyj-ulun",
+                "categoryURL": "https://tea4u.by/ulun"
+            }
+        ],
+        "description": "Китайский улун сильной ферментации, изготовленный из высококачественного сырья по технологии бескислородной ферментации. Материковый родственник тайваньского варианта под названием Габа Алишань. Обладает весьма приятным вкусом - по густоте и насыщенности несколько уступает тайваньскому собрату, но является таким же сладковато-фруктовым с ярким карамельным оттенком. Вкус его легче и тоньше и особенно приглянется поклонникам красных чаев. Этот улун подходит для любого времени суток, особенно хорошо проявляя себя после окончания трудового дня, помогая снять усталость и нервное напряжение"
+    },
+    "52213-1": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/52213-1/IMG_6048-330x220.jpg",
+                "productTitle": "Пуэрные почки (Люй Я Бао)",
+                "productUrl": "https://tea4u.by/belyj-chaj/puernye-pochki-ljuj-ja-bao",
+                "categoryURL": "https://tea4u.by/belyj-chaj"
+            },
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/52213-1/IMG_6048-330x220.jpg",
+                "productTitle": "Пуэрные почки (Люй Я Бао)",
+                "productUrl": "https://tea4u.by/puer/shen/puernye-pochki-ljuj-ja-bao",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Рассыпной чай, изготовленный из  почек с пуэрных деревьев провинции Юньнань. Для этого сорта собираются плотные почки со старых деревьев. После сбора почки проходят обработку по технологии белого чая. Такой чай гораздо легче пуэра из листьев, вкус у него сладкий, с небольшой кислинкой, в послевкусии приходит некоторая терпкость. Аромат фруктовый, легкий. Несмотря на родство сырья для этого чая пуэрам, ферментация Люй Я Бао остановлена в процессе производства, что отличает его от шен пуэров.Люй Я Бао является концентратом витаминов и микроэлементов. Прекрасно снимает чувство усталости, расслабляет тело, успокаивает мысли. Идеален для вечерних чаепитий и создает ощущение комфорта и гармонии. Вкус этого чая раскрывается не сразу, а постепенно, с каждым завариванием. Можно заваривать до 10 раз.Настой светлого цвета с нежным цветочно-весенним вкусом и тонким ароматом."
+    },
+    "5020K1": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/5020K1/IMG_8437-330x220.jpg",
+                "productTitle": "Серебряные иглы (Бай Хао Инь Чжень)",
+                "productUrl": "https://tea4u.by/belyj-chaj/serebryanye-igly-baj-hao-in-chzhen",
+                "categoryURL": "https://tea4u.by/belyj-chaj"
+            }
+        ],
+        "description": "Плантации этого чая находятся в горах провинции Фуцзянь. Собирают Серебряные иглы в первые несколько дней весны. Для изготовления чая Бай Хао Инь Чжень используются только двухдневные опушённые острые почки. Молоденькие почки вобрали в себя все самое лучшее, что заложено в чайном листе от природы. Чай  насыщен витаминами, пектинами, полезными кислотами и микроэлементами, которые укрепляют иммунитет, способствуют быстрому заживлению ран, уменьшают риски возникновения сердечно-сосудистых заболеваний, нарушений обмена веществ, помогают контролировать вес.Цвет настоя – бледно-желтый, вкус напитка – свежий и чуть сладковатый, с приятным цветочно-фруктовым послевкусием. "
+    },
+    "A15005": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A15005/IMG_9852-330x220.jpg",
+                "productTitle": "Юэ Гуан Бай (Белый лунный свет)",
+                "productUrl": "https://tea4u.by/belyj-chaj/yue-guan-baj-belyj-lunnyj-svet",
+                "categoryURL": "https://tea4u.by/belyj-chaj"
+            }
+        ],
+        "description": "Белый чай из провинции Юньнань.  В составе сырья опушённые острые почки и молодые листочки. Настой прозрачный, светлого оливкового оттенка с легким, фруктово-цветочным ароматом. Вкус мягкий, плотный, сочный, маслянистый, объемный, сладковатый, с освежающей фруктовой кислинкой. Чай  насыщен витаминами, пектинами, полезными кислотами и микроэлементами, которые укрепляют иммунитет, улучшают обмена веществ, помогают контролировать вес. "
+    },
+    "A13507": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A13507/IMG_9712-330x220.jpg",
+                "productTitle": "\"Чэнь жунь лао чжуань\" Шен пуэр HHC TEA 2015г. (2 плитки по 50г)",
+                "productUrl": "https://tea4u.by/puer/shen/chen-zhun-lao-chzhuan",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Премиальный шен пуэр от компании HHC TEA (ХэХэЧан). Экологически чистое, выдержанное сырье с древних высокогорных деревьев уезда Мэнхай (провинция Юньнань). Отточенная техника купажирования и прессования. Прозрачный настой красно-желтого цвета. Густой, яркий, выдержанный аромат. Ярко выраженная «ча ци» (чайная энергия). Плотный, насыщенный и обволакивающий чай. Изысканный, крепкий и мягкий вкус. Выдерживает более 10 завариваний - экономичный сорт. Упакован в подарочную коробку."
+    },
+    "A13116": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A13116/IMG_9506-330x220.jpg",
+                "productTitle": "Лао Тун Чжи (Старый товарищ) 918 (2014г.блин 200г)",
+                "productUrl": "https://tea4u.by/puer/shen/lao-tun-chzhi-staryj-tovarisch-918",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Знаменитый шен пуэр чайной фабрики Хайвань, изготовленный из отборного сырья с юньнаньских плантаций. Прозрачный настой золотистого цвета с нотками берёзы и чернослива во вкусе и аромате, осторожной терпкостью и сладким послевкусием. Выдерживает много завариваний. Лао Тун Чжи 918 сможет угадать ваше настроение и поможет приобрести нужное состояние. При усталости будет прекрасно тонизировать, поднимать настроение, снимет головную боль и зарядит энергией. А при переутомлении, поможет расслабиться и приобрести спокойствие."
+    },
+    "A13121": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A13121/IMG_9478-330x220.jpg",
+                "productTitle": "Лао Тун Чжи (Старый товарищ) 9948 (2018г.блин 357г)",
+                "productUrl": "https://tea4u.by/puer/shen/lao-tun-chzhi-staryj-tovarisch-9948-2018g-blin-357g",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Знаменитый шен пуэр чайной фабрики Хайвань. Эталонный образец качества, произведённый из крупнолистового юннаньского экологически чистого сырья по знаменитому рецепту «99» и особой технологии обработки. Листья плотные и маслянистые, отдают в настой свою лёгкую терпкость и энергичную молодость. Аромат легкий, нежный, цветочный, послевкусие сладкое, яркое, длительное. Выдерживает много завариваний."
+    },
+    "S02650": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02650/IMG_0034-330x220.jpg",
+                "productTitle": "Шен Пуэр \"И У Чжен Шань\" (фаб. Цзин май), 2019 г. (357г блин)",
+                "productUrl": "https://tea4u.by/puer/shen/shen-puer-i-u-chzhen-shan-fab-czin-maj-2019-g-357g-blin",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Настой янтарного  цвета с классическим нежным вкусом, характерным для шен пуэров из сырья с гор И У. Во вкусе и аромате нотки мёда, ванили и сухофруктов, длительное послевкусие. Заваривается большое количество раз (экономичный сорт), постепенно раскрывая вкус и аромат. Чай поднимает настроение, бодрит и наполняет оптимизмом."
+    },
+    "S02648": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02648/IMG_0013-330x220.jpg",
+                "productTitle": "Шен Пуэр \"Лао бань Чжан\" (ручное производство Сишуанбаньна) 2008г. (357г блин)",
+                "productUrl": "https://tea4u.by/puer/shen/shen-puer-lao-ban-chzhan-ruchnoe-proizvodstvo-sishuanbanna-2008g-357g-blin",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Отборное сырьё для этого шен пуэра было собрано в знаменитых горах Булань, вблизи селения Лао Бань Чжан. Бу Лань Шань — экологически чистый район с уникальным микроклиматом, а чай из Лао Бань Чжан особенно хорош насыщенностью вкуса и силой воздействия.Настой цвета тёмного янтаря, прозрачный. Вкус насыщенный, глубокий, мягкий с нотами сухофруктов и цветов. Экономичен - выдерживает большое количество завариваний."
+    },
+    "S02649": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02649/IMG_9980-330x220.jpg",
+                "productTitle": "Шен Пуэр \"Чай со старых деревьев тысячи лет\" (фаб. Цзин май) 2010г. (357г блин)",
+                "productUrl": "https://tea4u.by/puer/shen/shen-puer-chaj-so-staryh-derevjev-tysyachi-let",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Крупный лист в красивой плотной прессовке. Аромат сухого чая наполнен сладкими оттенками жёлтых фруктов. Настой насыщенный, блестящий, вкус настоя крепкий, мягкий, с фруктовым оттенком. Выдерживает большое количество завариваний - экономичный сорт."
+    },
+    "S02645": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02645/IMG_9990-330x220.jpg",
+                "productTitle": "Шен Пуэр \"Чем выдержаннее, тем ароматнее\" (фаб. Жень Гуань) 2018г. (357г блин)",
+                "productUrl": "https://tea4u.by/puer/shen/shen-puer-chem-vyderzhannee-tem-aromatnee-fab-zhen-guan-2018g-357g-blin",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Шен Пуэр фабрики Жень Гуань, Юньнань Мэнхай. Красивый крупный лист с деревьев средней степени прессовки с ароматом мёда и фруктов. Настой  - плотный, глянцевый; вкус - насыщенный, сбалансированный, с лёгкой терпкостью. Послевкусие - сладковатое и освежающее. Выдерживает много завариваний - экономичный сорт."
+    },
+    "S02849": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02849/IMG_9296-330x220.jpg",
+                "productTitle": "Шен пуэр \"Чун Цзень Ча\" (фаб. Пу Вэн, 2006г.) блин 400г",
+                "productUrl": "https://tea4u.by/puer/shen/shen-puer-chun-czen-cha-fab-pu-ven-2006g-blin-400g",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Красивый, вкусный, выдержанный шен от фабрики «Пу Вэнь». Чай с сильным характером и яркой индивидуальностью.Прессовка не слишком сильная, легко разделяется на порции. Аромат чая чувствуется даже через бумагу. Сырьё красивое: длинный лист, собранный со старого дерева, а не с чайного куста. Видны почки с желтоватым от времени ворсом. В прогретом чайнике аромат раскрывается, приобретает силу, глубину и устойчивость, чувствуется абрикос, чернослив и старое хвойное дерево. Легко и быстро пьётся. Вкус сдержанный, с лёгкой терпкостью, с нотками абрикоса. В послевкусии появляются классические для шена холодок и горчинка.Поднимает настроение и повышает тонус. Выдерживает много завариваний - экономичный сорт."
+    },
+    "S01810": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01810/IMG_9048-330x220.jpg",
+                "productTitle": "Ку Цяо (Тайваньский гречишный чай)",
+                "productUrl": "https://tea4u.by/matcha-etnicheskij-chaj/kucyao-tajvanskij-grechishnyj-chaj",
+                "categoryURL": "https://tea4u.by/matcha-etnicheskij-chaj"
+            }
+        ],
+        "description": "Для производства этого чая используют только молодые молочные не огрубевшие зёрна чёрной татарской гречихи (это растение распространено в горных районах Китая). После специальной обработки чай КуЦяо готов к употреблению. При заваривании получается настой янтарно-зелёного цвета с ярким ароматом овсяного печенья. Вкус приятный, сладковатый. Послевкусие легкое и нежное. Этот напиток способен понижать сахар в крови и поддерживать иммунитет.Выдерживает много завариваний - экономичный сорт."
+    },
+    "S01875": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01875/IMG_9110-330x220.jpg",
+                "productTitle": "Кудин сычуаньский \"Лю Шуй\"",
+                "productUrl": "https://tea4u.by/matcha-etnicheskij-chaj/kudin-sychuanskij-lyu-shuj",
+                "categoryURL": "https://tea4u.by/matcha-etnicheskij-chaj"
+            }
+        ],
+        "description": "Рассыпной кудин из провинции Сычуань. Производится из листьев падуба широколистного, распространённого на юге Китая — приземистого дерева с плотными листьями, произрастающего на влажных теневых склонах гор. В сухом виде — мелкие скрученные листочки с ярким маслянистым ароматом. Настой кудина ярко-зелёного цвета. Напиток обладает насыщенным свежим и несколько терпким вкусом с долгим сладким послевкусием. При сохранении всех полезных свойств, вкус этого кудина гораздо мягче, чем у игольчатых видов этого напитка. Кудин эффективен при простудных и инфекционных заболеваниях, является жаропонижающим и детоксикационным средством, снимает головные боли, улучшает работу пищеварительной системы, нормализует обмен веществ, снижает содержание сахаров, жиров и «плохого» холестерина в крови, нормализует артериальное давление, способствует поддержанию функции сердца и активизирует работу мозга. Способствует похудению, содержит антиоксиданты и множество важных для организма микроэлементов.При заваривании кудина очень важна температура воды. При 45-75°C получается напиток с выраженным вкусом и лёгкой горечью. При заваривании слишком горячей водой настой получается очень горьким и непригодным для питья.Необыкновенно устойчив к числу завариваний - экономичный сорт."
+    },
+    "S01905": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01905/IMG_9078-330x220.jpg",
+                "productTitle": "Матча (HOKUSAN & CO., LTD, Япония)",
+                "productUrl": "https://tea4u.by/matcha-etnicheskij-chaj/matcha",
+                "categoryURL": "https://tea4u.by/matcha-etnicheskij-chaj"
+            }
+        ],
+        "description": "Матча (Маття в точной транслитерации) — это японский порошковый чай яркого зелёного цвета , изготовленный из сухого листа Тэнча (Тэнтя). Благодаря особому способу производства такой чай обладает огромным количеством полезных свойств: он богат антиоксидантами, способствует похудению, выводит лишнюю жидкость из организма, тонизирует. Аромат настоя напоминает водоросли нори. Вкус очень плотный, морской, с приятной горчинкой и долгим, цепляющим послевкусием.Один из способов заваривания: пиалу следует насухо протереть, 1-2 г заварки залить 40-50 мл воды, прогретой до 80 °C. Медленно размешивая и взбивая венчиком, добиваются появления пенки и достижения равномерной консистенции. Полученную взвесь сразу употребляют, не допуская осаживания порошка. "
+    },
+    "S01837": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01837/IMG_9081-330x220.jpg",
+                "productTitle": "Тайский синий чай Матча",
+                "productUrl": "https://tea4u.by/matcha-etnicheskij-chaj/tajskij-sinij-chaj-matcha",
+                "categoryURL": "https://tea4u.by/matcha-etnicheskij-chaj"
+            }
+        ],
+        "description": "Тайский синий чай Матча получают из тайского синего чая Анчан (высушенные цветки Клитории Тройчатой или тайской орхидеи). Помимо оригинального вкуса и необычного  цвета, синий чай   улучшает память и  зрение, избавляет от бессонницы, нормализует обмен веществ. В кулинарии используется в качестве натурального красителя.Способ заваривания: чашку следует насухо протереть, 1-2 ч.ложки заварки залить 200 мл воды, прогретой до 80°-90°C. Медленно размешивая и взбивая венчиком, добиваются появления пенки и достижения равномерной консистенции. Полученную взвесь сразу употребляют, не допуская осаживания порошка. Напиток получается насыщенного синего цвета с нежным цветочно-травяным-зелёногорошковым ароматом, во вкусе легкая кислинка и приятная сладость."
+    },
+    "S01908": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01908/7448.970-330x220.jpg",
+                "productTitle": "Токусен Матча (HOKUSAN & CO., LTD, Япония)",
+                "productUrl": "https://tea4u.by/matcha-etnicheskij-chaj/tokusen-matcha",
+                "categoryURL": "https://tea4u.by/matcha-etnicheskij-chaj"
+            }
+        ],
+        "description": "Японский зеленый чай Токусен Матча (Токусен Маття) отличается от обычной Матчи тем, что его качество считается выше за счет более тщательного контроля при его производстве: закрытые плантации, строго ограниченный периода сбора чайного листа, контроль вкуса на разных этапах производства. Поэтому Токусен Матча имеет более яркий вкус и аромат, это своеобразный \"знак качества\" японского чая Матча.Настой непрозрачный, зелёного цвета. Аромат настоя напоминает водоросли нори. Вкус очень плотный, морской, с приятной горчинкой и долгим, цепляющим послевкусием."
+    },
+    "0018K2": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/0018K2/IMG_8561-330x220.jpg",
+                "productTitle": "Да Хун Пао (Большой красный халат) ",
+                "productUrl": "https://tea4u.by/ulun/da-hun-pao-bolshoj-krasnyj-halat",
+                "categoryURL": "https://tea4u.by/ulun"
+            }
+        ],
+        "description": "Да Хун Пао – это яркий эталон среди выдержанных улунов. Он достаточно сильно ферментирован и его приготовлению уделяют особое внимание, строго соблюдая все необходимые нормы. Это чай собирают на высокогорных плантациях – 1500–2200 метров над уровнем моря. Более высоко ценится урожай, собранный с северных склонов. На сорт и качество чая также влияет возраст куста: чем старше чайный куст, тем выше сорт чая и тем он дороже.Аромат дымный, насыщенный пряный  с оттенками ванили, карамели и абрикоса, вкус - глубокий, мягкий, сладковатый,  с нотами фруктов и меда. С каждым последующим завариванием вы заметите, как чай меняется, раскрывая новые грани вкуса и аромата. Является природным антидепрессантом - гармонизирует эмоциональное состояние. "
+    },
+    "52066-1": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/52066-1/IMG_8092-330x220.jpg",
+                "productTitle": "Да Хун Пао (Большой красный халат) 1 категории",
+                "productUrl": "https://tea4u.by/ulun/da-hun-pao-bolshoj-krasnyj-halat-1-kategorii",
+                "categoryURL": "https://tea4u.by/ulun"
+            }
+        ],
+        "description": "Один из самых известных китайских сортов чая.  Да Хун Пао относят к улунам сильной ферментации. Сразу же после сбора чайное сырье подвяливается и охлаждается. Далее листья подвергаются сильной ферментации, затем долгому обжариванию на древесных углях и быстрой ручной скрутке. Заваренный чай характеризуется насыщенным вкусом  с фруктовыми и ванильными нотками . Цвет настоя может меняться от темно-золотистого до насыщенно-янтарного. Является природным антидепрессантом - гармонизирует эмоциональное состояние."
+    },
+    "S01308": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01308/IMG_9065-330x220.jpg",
+                "productTitle": "Да Хун Пао (Большой красный халат) Премиум, слабая обжарка",
+                "productUrl": "https://tea4u.by/ulun/da-hun-pao-bolshoj-krasnyj-halat-premium-slabaya-obzharka",
+                "categoryURL": "https://tea4u.by/ulun"
+            }
+        ],
+        "description": "Знаменитый Уишаньский улун  средней ферментации и средней обжарки. Во вкусе  Премиальный Да Хун Пао слабой обжарки отличается большей глубиной и мягкостью, он хорошо выдерживает много завариваний и обладает ещё более выраженным, мягким, бодрящим эффектом. Аромат насыщенный, пряный, сладкий  с оттенками ванили, карамели и персика, вкус - глубокий, мягкий, сладковатый,  с нотами фруктов и карамели. С каждым последующим завариванием чай меняется, раскрывая новые грани вкуса и аромата. Является природным антидепрессантом - гармонизирует эмоциональное состояние."
+    },
+    "S01316": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01316/IMG_9062-330x220.jpg",
+                "productTitle": "Жоу Гуй",
+                "productUrl": "https://tea4u.by/ulun/zhou-guj",
+                "categoryURL": "https://tea4u.by/ulun"
+            }
+        ],
+        "description": "Уишаньский сильно ферментированный улун . Чайный лист сорта «Жоу Гуй» («Корица») отличается сочностью и упругостью, выдерживает многократную скрутку и «высокий огонь», приобретая в процессе выделки превосходный яркий вкус и волшебный утёсный аромат. Аромат сухого листа пряный, с шоколадными и древесными нотками. Вкус крепкий, маслянистый, с легкой терпкостью и сочным сладким послевкусием. Аромат настоя многогранный, пьянящий, интенсивный. Воздействие расслабляющее и умиротворяющее. Выдерживает много завариваний."
+    },
+    "S01309": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01309/IMG_9052-330x220.jpg",
+                "productTitle": "Ми Лань Сян",
+                "productUrl": "https://tea4u.by/ulun/mi-lan-syan",
+                "categoryURL": "https://tea4u.by/ulun"
+            }
+        ],
+        "description": "Гуандунский улун  слабой ферментации и светлой обжарки . Аромат сухого листа -дымные и пряные оттенки, переплетенные с цветочной ноткой орхидеи . Настой прозрачный, медового оттенка, в аромате чувствуются цветочно-медовые оттенки и оттенки свежей зелени. Насыщенный вкус медовой орхидеи. В послевкусии проявляются фруктовые нотки.Этот чай обладает тонизирующим, бодрящим эффектом, освежает и проясняет голову и мысли, улучшает настроение."
+    },
+    "XFT494": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/XFT494/IMG_0388-330x220.jpg",
+                "productTitle": "TIE GUAN YIN (Те Гуань Инь)",
+                "productUrl": "https://tea4u.by/ulun/tie-guan-yin-te-guan-in",
+                "categoryURL": "https://tea4u.by/ulun"
+            }
+        ],
+        "description": "Знаменитый и популярный материковый чай Улун. Изготовлен из цельного листа. Радует удивительно приятным, насыщенным маслянистым вкусом с оттенком свежести. Аромат - сладкий, цветочно-травянистый с оттенками сирени и орхидеи, которые с каждым новым завариванием раскрываются индивидуальным букетом. Отлично расслабляет и успокаивает."
+    },
+    "S01360": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01360/IMG_9042-330x220.jpg",
+                "productTitle": "Алишань Улун",
+                "productUrl": "https://tea4u.by/ulun/alishan-ulun",
+                "categoryURL": "https://tea4u.by/ulun"
+            }
+        ],
+        "description": "Элитный высокогорный улун, собран и сделан в горах Алишань (Национальном Природном Парке острова Тайвань). Листья этого чайного куста отличаются ярким ароматом и вкусом, после сбора они подвергаются деликатной ферментации, последующей фиксации и скручиванию. В сухом виде – темные, плотно свернутые листья с фруктово-ягодным ароматом.Светло-жёлтый настой обладает богатым и объёмным вкусом, в котором преобладают фруктовые ноты. Можно заваривать несколько раз."
+    },
+    "S01505_1": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01505_1/IMG_9100-330x220.jpg",
+                "productTitle": "Гун Тин (Императорский Пуэр) г. Линцан",
+                "productUrl": "https://tea4u.by/puer/shu/gun-tin-imperatorskij-puer-g-lincan",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Премиальный листовой шу пуэр Гун Тин из г. Линцан провинции Юньнань. Делается из небольших чайных листочков с типсами, собранными в конце весны. Аромат сухой заварки приятный, с древесно-ореховыми оттенками. Вкус глубокий, нежный. "
+    },
+    "A13501": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A13501/IMG_9868-330x220.jpg",
+                "productTitle": "\"Лэ Фэн\" Шу пуэр HHC TEA 2016г. (плитка 36г)",
+                "productUrl": "https://tea4u.by/puer/shu/le-fen-shu-puer-hhc-tea-2016g-plitka-36g",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Премиальный шу пуэр от компании HHC TEA (ХэХэЧан). Сырьё весеннего сбора с больших чайных деревьев. Тщательное ферментирование. Оптимальное купажирование. Выдержка временем. Традиционная технология обработки. Значительное количество почек золотистого цвета. Маслянистый, прозрачный настой красноватого цвета. Насыщенный, глубокий аромат. Богатый, мягкий вкус. Выдерживает много завариваний - экономичный сорт.Упакован в подарочную металлическую коробку и подарочный пакет. "
+    },
+    "A13503": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A13503/IMG_9709-1-330x220.jpg",
+                "productTitle": "\"Хун Си\" Шу пуэр HHC TEA 2015г. (плитка 50г)",
+                "productUrl": "https://tea4u.by/puer/shu/hun-si-shu-puer-hhc-tea-2015g-plitka-50g",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Премиальный шу пуэр от компании HHC TEA (ХэХэЧан). Экологически чистое сырье весеннего сбора с древних деревьев уезда Мэнхай. Традиционная технология производства. Умеренная степень ферментации. Тщательно произведенный купаж. Крепкие листья. Яркий прозрачный настой красноватого цвета. Насыщенный аромат. Крепкий, густой, изысканный и гармоничный вкус. Восстанавливает нервную систему - десять минут наслаждения чистым и насыщенным вкусом наполняют энергией на весь день.Выдерживает до 10 завариваний - экономичный сорт. Упакован в подарочную коробку."
+    },
+    "A13156": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A13156/IMG_9316-330x220.jpg",
+                "productTitle": "Гун Тин Гун Бин 2018г. (357г блин)",
+                "productUrl": "https://tea4u.by/puer/shu/gun-tin-gun-bin-2018g-357g-blin",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Шу пуэр, спрессованный в 2018г. (завод Тянь Ань) из выдержанного сырья сорта Гун Тин (Императорский пуэр), собранного в 2014г. Место сбора  - округ Сишуанбаньна, уезд Мэнхай, Юньнань. Отборное сырьё делает вкусовой профиль запоминающимся - сбалансированный, сильный, мягкий вкус с фруктово-древесными нотками. Длительное сладко-горькое послевкусие, сливочные и фруктовые ноты сменяют друг друга. Выдерживает много завариваний."
+    },
+    "A13157": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A13157/IMG_9309-330x220.jpg",
+                "productTitle": "Гун Тин Лан Сян 2018г. (357г блин)",
+                "productUrl": "https://tea4u.by/puer/shu/gun-tin-lan-syan--2018g-357g-blin",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Шу пуэр, спрессованный в 2018г. (завод Тянь Ань) из выдержанного сырья сорта Гун Тин (Императорский пуэр). Место сбора  - округ Сишуанбаньна, Коричневые горы, уезд Мэнхай, Юньнань. Сырье собрано из небольших чайных почек с молодых чайных кустов, дата сбора - 2014г. Отличное качество органического сырья даёт запоминающийся вкусовой профиль - сильный и маслянистый, глубокий и мягкий, с нотками чернослива и грецкого ореха. Длительное сладкое послевкусие. Выдерживает много завариваний."
+    },
+    "S02643": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02643/IMG_0022-330x220.jpg",
+                "productTitle": "Гун Тин Пуэр \"Бань Чжан Гушу\"  (фаб. Кан Пинь) сбор 2015 г. 357г блин",
+                "productUrl": "https://tea4u.by/puer/shu/gun-tin-puer-ban-chzhan-gushu-fab-kan-pin-yunnan-menhaj-2015-god",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Шу пуэр, сортность сырья Гун Тин, фабрика Кан Пинь, Юньнань, Мэнхай. Настой крепкий, тёмного цвета с мягким вкусом с фруктово-цветочными нотками,сладковатым ароматом и длительным ореховым послевкусием. Можно заваривать несколько раз."
+    },
+    "S02712": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02712/IMG_0190-330x220.jpg",
+                "productTitle": "Каменный пуэр (Ча Хуа Ши) точа (8 г)",
+                "productUrl": "https://tea4u.by/puer/shu/kamennyj-puer-cha-hua-shi-tocha-8-g",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Эта точа сделана из каменного пуэра Ча Хуа Ши мелкой фракции, хорошо подходящей для повторного прессованияЧа Хуа Ши (Чайные окаменелости) — современная разновидность Шу пуэра. На вид — плотные твёрдые кусочки спрессованного чая, похожие на тёмно-коричневые камушки. Поверхность гладкая, блестящая, в которой невозможно различить чайные листья. При заваривании они не распадаются и мало увеличиваются в объёме. Аромат Ча Хуа Ши в сухом виде с оттенками благородной старости и риса Номи. Цвет настоя глубокий, тёмный и яркий. Вкус чистый, мягкий, насыщенный, сладковатый, богатый на различные оттенки, с нотами сухофруктов и риса Номи. Хорошо бодрит и поднимает настроение."
+    },
+    "A13117": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A13117/IMG_9491-330x220.jpg",
+                "productTitle": "Лао Тун Чжи (Старый товарищ) 9978 (2018г.блин 357г)",
+                "productUrl": "https://tea4u.by/puer/shu/lao-tun-chzhi-staryj-tovarisch-9978-2018g",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Шу пуэр из знаменитой линейки пуэров \"Старый товарищ\" Чайной фабрики Хайвань. Эта линейка славится качественным чаем по доступной цене. Настой плотный и густой, тёмно-коричневого цвета. Вкус орехово-древесный с оттенком чернослива и трав, глубокий и насыщенный, слегка терпкий, приятно маслянистый. Немного сладости в долгом послевкусии. Выдерживает много завариваний.Прекрасно бодрит и согревает, дарит прилив сил и энергии. Улучшает настроение и гармонизирует внутреннее состояние."
+    },
+    "S01472": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01472/IMG_9138-330x220.jpg",
+                "productTitle": "Дянь Хун со старых деревьев блин 357 г (фаб. Юндэ Сюлинь, Линцан 2015 г.)",
+                "productUrl": "https://tea4u.by/krasnyj/dyan-hun-so-staryh-derevjev-blin-357-g-fab-yunde-syulin-lincan-2015-g",
+                "categoryURL": "https://tea4u.by/krasnyj"
+            }
+        ],
+        "description": "Дянь Хун со старых деревьев из высокогорных чайных садов Линцан. Сухой лист длинный, изобилует золотистыми типсами и очень ароматный, с медовыми и цветочными нотками. Настой тёмно-орехового цвета, с непревзойдённым цветочно-медовым ароматом, с глубоким, насыщенным вкусом, изобилующим фруктовыми и ореховыми оттенками и долгим послевкусием."
+    },
+    "A12001": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A12001/IMG_9856-330x220.jpg",
+                "productTitle": "Дянь Хун №1",
+                "productUrl": "https://tea4u.by/krasnyj/dyan-hun-1",
+                "categoryURL": "https://tea4u.by/krasnyj"
+            }
+        ],
+        "description": "Оригинальный красный чай  из провинции Юньнань с роскошным вкусовым коктейлем и ароматическим букетом. Сладкий и сочный напиток из чайных листьев, в котором ясно звучат шоколадные нотки. С самого начала он увлекает карамельным ароматом и раскрывается дальше удивительным сочетанием солода и цветочного меда. Настой довольно крепкий  яркого медного оттенка, который придется по вкусу тем, кто ценит бодрящие вкусовые сочетания, оставляющие долгое запоминающееся послевкусие."
+    },
+    "5100EK4": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/5100EK4/IMG_8617-330x220.jpg",
+                "productTitle": "Золотая Игла (Дянь Хун Цзинь Хао)",
+                "productUrl": "https://tea4u.by/krasnyj/zolotaya-igla-dyan-hun-czin-hao",
+                "categoryURL": "https://tea4u.by/krasnyj"
+            }
+        ],
+        "description": "Элитный красный чай, выращиваемый в провинции Юньнань. Дянь Хун Цзинь Хао превращает чаепитие в настоящий праздник – настолько многогранен и богат его вкус и аромат. Сладкий аромат с нотами пряностей и инжира, насыщенный вкус с нотами мёда, сухофруктов и кураги; долгое свежее послевкусие. Цвет настоя - медный."
+    },
+    "S02900": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02900/IMG_0159-330x220.jpg",
+                "productTitle": "Кенийский чёрный чай",
+                "productUrl": "https://tea4u.by/krasnyj/kenijskij-chernyj-chaj",
+                "categoryURL": "https://tea4u.by/krasnyj"
+            }
+        ],
+        "description": "Крупнолистовой черный чай из чайных садов Кении. В сухом виде - крупный, тёмный лист естественной скрутки с интенсивным ягодно-фруктовым ароматом. Настой насыщенный темно-янтарного цвета. Вкус настоя деликатный, изысканный, с лёгкой горчинкой и сладким послевкусием, с фруктовыми нотами, что свойственно чаю родом с Африканского континента."
+    },
+    "S02226": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02226/IMG_0168-330x220.jpg",
+                "productTitle": "Махагастотт OP (Нувара Элия)",
+                "productUrl": "https://tea4u.by/krasnyj/mahagastott-op-nuvara-eliya",
+                "categoryURL": "https://tea4u.by/krasnyj"
+            }
+        ],
+        "description": "Цейлонский черный чай класса Orange Pekoe – крупнолистовой чай, созданный из молодых раскрывшихся листочков, скрученных по всей длине. Чайное хозяйство «Махагастотт» располагается в самом высокогорном районе Цейлона, на высоте 1900 м на уровне моря. Среди кипарисовых и эвкалиптовых рощ, зарослей дикой мяты производится чай с самым гармоничным и прекрасным ароматом в чайном регионе Нувара Элия.Сухой лист – тёмно-коричневый, светлее, чем у других видов чая Orange Pekoe. Лист крупный, скрученный по всей длине. Обладает выраженным ореховым ароматом с оттенком тропической орхидеи. Настой светло-ореховый, прозрачный, очень ароматный. Аромат настоя с неповторимыми горьковатыми цветочными нотками. Вкус – благородная терпкая горчинка, переходящая в длительное послевкусие."
+    },
+    "CH4523": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/CH4523/IMG_8829-330x220.jpg",
+                "productTitle": "Тань Ян Гун Фу Хун Ча (Красный чай высшего мастерства из Тань Ян)",
+                "productUrl": "https://tea4u.by/krasnyj/tan-yan-gun-fu-hun-cha-krasnyj-chaj-vysshego-masterstva-iz-tan-yan",
+                "categoryURL": "https://tea4u.by/krasnyj"
+            }
+        ],
+        "description": "Красный чай из провинции Фуцзянь. Производится из молодых листочков, покрытых пушком, а также из почек на юге провинции Фуцзянь, а именно в деревне Тань Ян. Цветочно-медовый аромат и ярко выраженный насыщенный вкус делают его фаворитом среди многих сортов. Вкус чая мягкий, бархатистый, многогранный со сладкими медовыми переливами и ягодными оттенками. Яркое послевкусие изящно завершает вкусовые оттенки."
+    },
+    "S01407": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01407/IMG_0146-330x220.jpg",
+                "productTitle": "Фуцзянь Хун Ча (Красный чай из Фуцзяня)",
+                "productUrl": "https://tea4u.by/krasnyj/fuczyan-hun-cha-krasnyj-chaj-iz-fuczyanya",
+                "categoryURL": "https://tea4u.by/krasnyj"
+            }
+        ],
+        "description": "Достойный красный чай с горных чайных плантаций Фуцзянь. Лист темный и крупный, с лёгкой естественной скруткой. Аромат сухого чая сильный, сладкий, с фруктовыми оттенками. Настой тёмно-орехового цвета, густой. Вкус пронизан сладкими цветочными нотами, лёгкими и деликатными. В послевкусии запоминается терпкая нотка."
+    },
+    "S01441": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01441/IMG_0138-330x220.jpg",
+                "productTitle": "Хун Цзин Ло (Золотая улитка)",
+                "productUrl": "https://tea4u.by/krasnyj/hun-czin-lo-zolotaya-ulitka",
+                "categoryURL": "https://tea4u.by/krasnyj"
+            }
+        ],
+        "description": "Элитный красный чай сорта Дянь Хун, скрученный в форме красивых золотых спиралей. Произрастает и производится в провинции Юньнань. Его изготавливают из первых весенних чайных почек, покрытых светлым, коротким пухом, которые при ферментации приобретают золотистый цвет.В аромате сухой заварки нотки какао и ржаного хлеба. Цвет настоя красновато-янтарный, настой крепкий, насыщенный. Вкус солодовый, без терпкости, с ореховыми нотками. "
+    },
+    "0189K1": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/0189K1/IMG_8467-330x220.jpg",
+                "productTitle": "Чёрная жемчужина с ароматом Личи",
+                "productUrl": "https://tea4u.by/krasnyj/chernaya-zhemchuzhina-s-aromatom-lichi",
+                "categoryURL": "https://tea4u.by/krasnyj"
+            }
+        ],
+        "description": "Чай, выращиваемый в провинции Хунань.  Изготавливают этот красный чай из собранных вручную чайных почек и первого листочка. При заваривании получается насыщенный настой красно-коричневого цвета, с ярким ароматом  плода Личи, терпким насыщенным вкусом и цветочным послевкусием."
+    },
+    "0156K5": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/0156K5/IMG_8796-330x220.jpg",
+                "productTitle": "Свежая слива (Чжень Шан Сян Тао)",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/svezhaya-sliva-chzhen-shan-syan-tao",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Связанный зелёный чай из провинции Фуцзянь. Вес 1 шт.  8-9г При заваривании распускается вплетённый цветок и получается настой золотисто-зеленого цвета с изысканным насыщенным ароматом и тонким мягким вкусом. Выдерживает большое количество завариваний - экономичный сорт."
+    },
+    "S01924": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01924/IMG_0349-330x220.jpg",
+                "productTitle": "Сенча Шидзуока (Сидзуока, Япония)",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/sencha-shidzuoka",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Эта классическая японская сенча легкой степени пропарки выращена в самой известной чайной префектуре Японии – Сидзуока (или, другой вариант произношения, Шидзуока). В японской сенче меньшее содержание танина, чем в китайской сенче, зато огромное количество витаминов и микроэлементов.Аромат сухого листа насыщенный, наполненный травяными и морскими нотами. Настой прозрачный, светло-зеленого цвета, в аромате настоя на фоне травяных и морских нот проступают легкие цветочные нотки. Вкус приятный, без горечи, сладковатый, освежающий, с чуть терпковатым ореховым послевкусием."
+    },
+    "S01626": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01626/IMG_0173-330x220.jpg",
+                "productTitle": "Сливочная карамель",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/slivochnaya-karamel",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Связанный зелёный чай из южных уездов Юньнань, с ярким цветком клевера и сливочно-карамельным ароматом. Вес 1 шт. - 10г.Светло-янтарный настой с  ароматом сливочной карамели. При заваривании раскрывается в эффектный цветок - распускается клевер, вокруг которого  как лепестки расходятся листочки зелёного чая. Вкус этого чая нежный, мягкий,  с лёгкой молочной ноткой, долго остающейся на языке."
+    },
+    "XFG4438": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/XFG4438/IMG_0364-330x220.jpg",
+                "productTitle": "Сянг Чха (Xiang Cha Ароматный чай)",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/syang-chha-xiang-cha-aromatnyj-chaj",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Экзотический зелёный чай из провинции Чжецзян. Ранней весной собирают чайные флеши, которые специальным образом обрабатываются и очень туго скручиваются вдоль листа. Маленькие скрученные листики чая обладают нежным ароматом и вкусом. Заваривается быстро, поэтому не стоит \"передерживать\". Вкус нежный, цветочно-медовый, сладковатый, с нотками дыни и бобовых, сладкое послевкусие."
+    },
+    "S01037": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01037/IMG_0135-330x220.jpg",
+                "productTitle": "Юньнань Маофен",
+                "productUrl": "https://tea4u.by/zelenyj-chaj/yunnan-maofen",
+                "categoryURL": "https://tea4u.by/zelenyj-chaj"
+            }
+        ],
+        "description": "Достойный весенний маофен из чайных садов Юньнань. Флеши со светлыми ворсистыми почками и молодым листочком скручены в форме воробьиных язычков. Аромат сухого чая сладкий, фруктовый, с терпкой яблочной кислинкой. Лёгкий настой цвета свежего миндаля, с тонким, изысканным, благородным ароматом зелёного чая, с глубоким и мягким вкусом с ореховой ноткой.Тонизирует, улучшает обмен веществ, способствует похудению, укрепляет иммунитет, благотворно влияет на сердечно-сосудистую систему"
+    },
+    "FR0003K7": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/FR0003K7/315.600-330x220.jpg",
+                "productTitle": "Фильтр-пакет для чайника размер M, 100 шт",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/filtr-paket-dlya-chajnika-razmer-m-100-sht",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": "Фильтр-пакеты для чайника, размер 8,5 см * 18,5см. Изготовлены из экологически чистых материалов растительного происхождения."
+    },
+    "A60208": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A60208/IMG_0446(1)-330x220.jpg",
+                "productTitle": "Чайник ЖУ ЯО “Классика” 250 мл",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/chajnik-zhu-yao-klassika-250-ml",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": "Селадоновая керамика Жу Яо станет прекрасным украшением чайного стола. Подходит для всех видов чая. "
+    },
+    "A60207": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A60207/IMG_0442(1)-330x220.jpg",
+                "productTitle": "Чайник ЖУ ЯО “Цзин Лань” 250 мл",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/chajnik-zhu-yao-czin-lan-250-ml",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": "Селадоновая керамика Жу Яо станет прекрасным украшением чайного стола. Подходит для всех видов чая. "
+    },
+    "A60406": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A60406/2-330x220.jpg",
+                "productTitle": "Чайник стеклянный с деревянной крышкой 600 мл",
+                "productUrl": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya/chajnik-steklyannyj-s-derevyannoj-kryshkoj-s",
+                "categoryURL": "https://tea4u.by/aksessuary/dlya-zavarivaniya-chaya"
+            }
+        ],
+        "description": "Заварочный чайник из жаропрочного стекла с пружинкой-фильтром в носике.  Деревянная крышка плотно прилегает и не обжигает руки при заваривании. Подходит для всех видов чая."
+    },
+    "S01593": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01593/IMG_9205-330x220.jpg",
+                "productTitle": "Шен пуэр кирпич 100 г \"Старые деревья из Буланьшань\"(фаб. Син Бан Чжан, 2013 г.)",
+                "productUrl": "https://tea4u.by/puer/shen/shen-puer-kirpich-100-g-starye-derevjya-iz-bulanshan-fab-sin-ban-chzhan-2013-g",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Превосходный крупнолистовой шен из сырья со знаменитых гор Булань. Крупный лист спрессован в небольшой кирпич. Сухой лист покрыт золотистыми ворсинками. Аромат сухой заварки насыщен медово-фруктовыми тонами. Настой янтарного цвета, прозрачный, вкус и аромат настоя с нотами сухофруктов и цветов, при последующих завариваниях проявляется терпкая нотка."
+    },
+    "S02617": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02617/IMG_9149-330x220.jpg",
+                "productTitle": "Шен Пуэр точа 100 г \"Лошадь\" (фаб. Гэнма 2012 г.)",
+                "productUrl": "https://tea4u.by/puer/shen/shen-puer-tocha-100-g-loshad-fab-genma-2012-g",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Интересная точа молодого юньнаньского шен пуэра, аккуратно завёрнутая в рисовую бумагу. Сухой лист крупный в красивой плотной прессовке. Аромат сухого чая наполнен сладкими оттенками кураги. Настой лёгкий, блестящий, очень ароматный. Пахнет этот чай свежей зеленью и тонкими, изысканными нотами сухофруктов. Вкус настоя крепкий, мягкий, с фруктовым оттенком.Выдерживает большое количество завариваний - экономичный сорт. "
+    },
+    "A13149": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A13149/IMG_9323-330x220.jpg",
+                "productTitle": "“Шень Шань Лао Шу” Шен пуэр 2013г. (блин 100г)",
+                "productUrl": "https://tea4u.by/puer/shen/shen-shan-lao-shu-shen-puer-2013g-blin-100g",
+                "categoryURL": "https://tea4u.by/puer/shen"
+            }
+        ],
+        "description": "Яркий вкусный шен пуэр 2013 года с нотками цветов и меда во вкусе и аромате. Плотный маслянистый лист. Стоек к многократным завариваниям - экономичный сорт."
+    },
+    "E01K6": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/52047/IMG_7805-330x220.jpg",
+                "productTitle": "Те Гуань Инь (I категории)",
+                "productUrl": "https://tea4u.by/ulun/te-guan-in-i-kategorii",
+                "categoryURL": "https://tea4u.by/ulun"
+            }
+        ],
+        "description": "Знаменитый материковый улун с мягким персиковым вкусом и выраженным ароматом сирени. Отлично расслабляет и успокаивает. Можно заваривать несколько раз."
+    },
+    "S01336": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01336/IMG_9123-330x220.jpg",
+                "productTitle": "Те Гуань Инь (Высшей категории)",
+                "productUrl": "https://tea4u.by/ulun/te-guan-in-vysshej-kategorii",
+                "categoryURL": "https://tea4u.by/ulun"
+            }
+        ],
+        "description": "Этот сорт улуна производят в уезде Аньси провинции Фуцзянь с XVIII века, один из самых знаменитых китайских чаёв. Технология его производства включает в себя более 10 стадий и главной особенностью является постепенная ферментация.Настой — светло-жёлтый, прозрачный, при последующих завариваниях меняет цвет, становясь зеленоватым. Аромат яркий, цветочный, с нотами поспевших яблок. Вкус свежий, с лёгкой сладостью и характерным для подобных улунов привкусом талого снега. Отлично расслабляет и успокаивает. Выдерживает много завариваний."
+    },
+    "A13154": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/placeholder-330x220.png",
+                "productTitle": "Пуэр Шу Юй Сяо Бай 2017г (100г блин)",
+                "productUrl": "https://tea4u.by/puer/shu/puer-shu-yuj-syao-baj-2017g-100g-blin",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Отличный шу пуэр малого формата от Фабрики Гу И г.Кунминг. Сделан из отборного сырья, лист средний с вкраплениями типсов, сильная прессовка. Настой насыщенный, глубокий, маслянистый. Аромат с нотами шоколада, прогретого дерева и орехов. Вкус плотный, сбалансированный, раскрывается с каждой последующей заваркой новыми нотами.  Долгое ореховое послевкусие. Отлично тонизирует и снимает нервное напряжение."
+    },
+    "A13158": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/A13158/IMG_9883-330x220.jpg",
+                "productTitle": "Чэнь Сян Хун Юнь 2017г (357г блин)",
+                "productUrl": "https://tea4u.by/puer/shu/chen-syan-hun-yun-357g",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Шу пуэр фабрики Син Хай. Место сбора сырья  - округ Сишуанбаньна провинции Юньнань. Значительное количество почек золотистого цвета. Настой чистый, умеренно густой, багровый. Вкус мягкий, дает сладкое послевкусие с нотками какао бобов. Выдерживает много завариваний - экономичный сорт "
+    },
+    "S02644": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02644/IMG_0001-330x220.jpg",
+                "productTitle": "Шу пуэр \"Дикий вкус\" (фаб. Жень Гуань) сбор 2015 г. 357г блин",
+                "productUrl": "https://tea4u.by/puer/shu/shu-puer-dikij-vkus-fab-zhen-guan-sbor-2015-g-357g-blin",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Шу пуэр фабрики Жень Гуань, Юньнань Мэнхай. Сухой лист мощный, крупный, с золотистыми пятнами почек, блин средней прессовки. Настой плотный, тёмный, блестящий. Вкус сильный и маслянистый, глубокий, с нотками берёзы и грецкого ореха. Длительное сладкое послевкусие. Выдерживает много завариваний. "
+    },
+    "S01576": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01576/IMG_0184-330x220.jpg",
+                "productTitle": "Шу Пуэр \"Кирпичик Императорский\" (5,5 - 6,5 г)",
+                "productUrl": "https://tea4u.by/puer/shu/shu-puer-kirpichik-imperatorskij-5-5-6-5-g",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Порционный Императорский (Гун Тин) пуэр. Некрупный лист с золотистыми вкраплениями типсов в форме кирпичика средней прессовки. Аромат сухой заварки обладает сильными фруктовыми оттенками и древесными нотками, свойственными шу пуэру. Настой плотный, практически чёрный, непрозрачный. Для этого пуэра характерен приятный, крепкий вкус с легкими фруктовыми нотками и длительное послевкусие. Этот чай заваривается быстро и очень крепко."
+    },
+    "S02572": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02572/IMG_9286-330x220.jpg",
+                "productTitle": "Шу Пуэр \"Коллекционный\" (фаб. Маньлэй, Сишуанбаньна 2013 г.) блин 200 г ",
+                "productUrl": "https://tea4u.by/puer/shu/shu-puer-kollekcionnyj-fab-manlej-sishuanbanna-2013-g-blin-200-g",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Крупнолистовой шу пуэр, выполненный в средней плотности прессовке. Родиной чая являются горы Сишуанбаньна. Аромат сухого листа составляют камфорно-древесные ноты. Настой тёмный, густой, непрозрачный. Аромат настоя — лёгкий, с нотами горького шоколада и сладкими тонами сухого дерева. Вкус без горечи — только тягучие, сладкие, долгие оттенки шоколада. Очень долгое послевкусие."
+    },
+    "XF7852": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/XF7852/IMG_0302-330x220.jpg",
+                "productTitle": "Шу пуэр \"Кунминг 7852\" 2017г. (блин 357г)",
+                "productUrl": "https://tea4u.by/puer/shu/shu-puer-kunming-7852",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Прессованный шу пуэр в форме блина с ярким и насыщенным  вкусом и ароматом. Во вкусе - нотки пряного дерева, орехов и дынная сладость, длительное сладковатое послевкусие. Бодрит и восстанавливает силы, снимает напряжение."
+    },
+    "S02565": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02565/IMG_9254-330x220.jpg",
+                "productTitle": "Шу Пуэр \"Пуэр Безграничных Гор\" (фаб. Менхай Удао 2013 г.) точа 100 г ",
+                "productUrl": "https://tea4u.by/puer/shu/shu-puer-puer-bezgranichnyh-gor-fab-menhaj-udao-2013-g-tocha-100-g",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Яркий молодой шу пуэр, изготовленный фабрикой Менхай Удао. Сухой лист не слишком крупный, в плотной прессовке. Аромат сухого листа свежий, с насыщенными сладкими оттенками жёлтых фруктов. Настой густой, тёмный, непрозрачный, с отчётливым шоколадным оттенком во вкусе и горьковатым долгим послевкусием.Этот чай подходит для употребления каждый день, пробуждает и придаёт бодрости."
+    },
+    "S02562": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02562/IMG_9276-330x220.jpg",
+                "productTitle": "Шу Пуэр \"Юньнань Гушу\" (фаб. Менхай Венья 2012 г.) блин 150 г ",
+                "productUrl": "https://tea4u.by/puer/shu/shu-puer-yunnan-gushu-fab-menhaj-venjya-2012-g-blin-150-g",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Интересный блин шу пуэра, созданный небольшой частной фабрикой, находящейся в окрестностях города Менхай. Сухой лист мощный, крупный, с золотистыми пятнами почек, блин лёгкой прессовки. Аромат сухого чая насыщенно-фруктовый. Настой плотный и тёмный. Во вкусе мягкая, бархатная шоколадная горечь, плотность настоя буквально ощущается на языке."
+    },
+    "S02824": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S02824/IMG_9246-330x220.jpg",
+                "productTitle": "Шу Пуэр 5 лет (кирпичик, 10-11 г)",
+                "productUrl": "https://tea4u.by/puer/shu/shu-puer-5-let-kirpichik-10-11-g",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Пятилетний Шу пуэр, спрессованный в кирпичики по 10-11 г.  Аромат сухого листа наполнен древесными и ореховыми оттенками. Настой плотный, темного цвета. Вкус классический, выразительный, богатый различными оттенками, с легкой горчинкой"
+    },
+    "S01548": {
+        "prods": [
+            {
+                "imgUrl": "https://tea4u.by/image/cache/catalog/goods/S01548/IMG_0195-330x220.jpg",
+                "productTitle": "Шу пуэр в бамбуке 2014 год, кирпич 250 г",
+                "productUrl": "https://tea4u.by/puer/shu/shu-puer-v-bambuke-2014-god-kirpich-250-g",
+                "categoryURL": "https://tea4u.by/puer/shu"
+            }
+        ],
+        "description": "Этот классический юньнаньский шу пуэр, произведенный в 2014 году, с глубоким, насыщенным вкусом с характерным бамбуковым послевкусием. В сухом виде чай обладает выраженным землистым ароматом, с древесными нотками. Настой тёмный, густой, непрозрачный. Аромат спокойный, с нотами черешни. Вкус богатый и насыщенный, умеренно горьковатый и в то же самое время - сладкий, с нотами сухофруктов. Бодрит, поднимает настроение. Легко выдерживает много завариваний - экономичный сорт."
+    }
+}
