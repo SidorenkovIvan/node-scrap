@@ -20,9 +20,14 @@ function start() {
             category[h] = {
                 id: ++id,
                 title: $(el).text().replace(/[^А-Яа-я0-9,Ёё]/g, ' ').trim(),
-                url: h
+                url: h,
+                parentId: 0
             };
         });
+        for (const cu in category) {
+            const pu = cu.substr(0, cu.lastIndexOf('/'));
+            if (pu in category) category[cu].parentId = category[pu].id;
+        }
         //console.log(category);
     });
 }
