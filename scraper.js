@@ -3,11 +3,16 @@ let cheerio = require("cheerio");
 let tress = require("tress");
 let sqlite3 = require("sqlite3").verbose();
 let fs = require("fs");
+const fetch = require('node-fetch');
+const FileType = require('file-type');
+
 let siteUrl = "https://tea4u.by";
-let results = [];
 let category = {};
 let product = {};
 let prodId = 0;
+const DB_NAME = 'data.sqlite';
+const GRAB_IMGS = true;
+
 
 function start() {
     needle.get(siteUrl, (err, res) => {
@@ -66,13 +71,6 @@ let q = tress(function(url, callback) {
                 let productUrl = a.attr("href");
                 let categoryURL = productUrl.substr(0, productUrl.lastIndexOf('/'));
                 let categoryTitle = category[categoryURL].title;
-                results.push([
-                    imgUrl,
-                    productTitle,
-                    productUrl,
-                    categoryURL,
-                    categoryTitle
-                ]);
                 let productCode = $(el).find(".additional .code > span").text();
                 let p = {imgUrl, productTitle, productUrl, categoryURL, categoryTitle};
                 if (!(productCode in product)) {
@@ -94,17 +92,18 @@ let q = tress(function(url, callback) {
 
 // эта функция выполнится, когда в очереди закончатся ссылки
 q.drain = function () {
-    let dataBase = new sqlite3.Database('data.sqlite');
+    let dataBase = new sqlite3.Database(DB_NAME);
     dataBase.serialize(() => {
        dataBase.run('DROP TABLE IF EXISTS category');
        dataBase.run('CREATE TABLE category (' +
            ' "category_id" INTEGER NOT NULL UNIQUE, ' +
            ' "title" TEXT, ' +
            ' "url" TEXT UNIQUE, ' +
+           ' "parent_id" INTEGER DEFAULT 0, ' +
            ' PRIMARY KEY("category_id") );');
-       let stmt = dataBase.prepare('INSERT INTO category VALUES (?, ?, ?)');
+       let stmt = dataBase.prepare('INSERT INTO category VALUES (?, ?, ?, ?)');
        for (const u in category)
-           stmt.run(category[u].id, category[u].title, category[u].url);
+           stmt.run(category[u].id, category[u].title, category[u].url, category[u].parentId);
        stmt.finalize();
        dataBase.run('DROP TABLE IF EXISTS product');
        dataBase.run('CREATE TABLE product (' +
@@ -146,7 +145,71 @@ q.drain = function () {
     });
     fs.writeFileSync('./data.json', JSON.stringify(product, null, 4));
     //console.log("total unique products " + prodId);
+    if (GRAB_IMGS) storeImages();
 };
 
 // добавляем в очередь ссылки на категории из меню
 start();
+
+async function imgToBase64(url) {
+/*
+    fetch(url)
+        .then(response => response.buffer())
+        .then(buffer => {
+            console.log(buffer);
+            // Encode to base64
+            let encodedImage = buffer.toString('base64');
+            //console.log(encodedImage);
+            return buffer
+        })
+        .then(buf => FileType.fromBuffer(buf))
+        .then(type => {
+            console.log(type);
+        });
+ */
+
+    let response = await fetch(url);
+    let buf = await response.buffer();
+    let type = await FileType.fromBuffer(buf);
+    let prefix = "data:" + type.mime + ";base64,";
+    let base64 = buf.toString("base64");
+    return prefix + base64;
+}
+
+// const u = "https://tea4u.by/image/cache/catalog/goods/S01735/IMG_9115-330x220.jpg";
+// imgToBase64(u).then(function (base64) {
+//     console.log(base64);
+// });
+
+function storeImages() {
+    let db = new sqlite3.Database(DB_NAME);
+    db.serialize(async () => {
+        db.run('DROP TABLE IF EXISTS image');
+        db.run('CREATE TABLE "image" (' +
+            '"url" TEXT NOT NULL UNIQUE,' +
+            '"base64" TEXT NOT NULL,' +
+            'PRIMARY KEY("url") );');
+
+        let stmt = db.prepare('INSERT INTO image VALUES (?, ?)');
+
+        let imgMap = new Map();
+
+        for (const code in product) {
+            const url = product[code].prods[0].imgUrl;
+            if (imgMap.has(url)) {
+                imgMap.set(url, imgMap.get(url) + 1);
+            }
+            else {
+                imgMap.set(url, 1);
+                console.log('fetch ' + url);
+                const base64 = await imgToBase64(url);
+                stmt.run(url, base64);
+            }
+        }
+
+        console.log(imgMap);
+
+        stmt.finalize();
+        db.close();
+    });
+}
