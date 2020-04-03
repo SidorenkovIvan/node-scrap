@@ -5,7 +5,7 @@
   "main": "scraper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node scraper.js"
+    "start": "node scraper.js"
   },
   "keywords": [
     "node",
@@ -16,9 +16,11 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "cheerio": "^1.0.0-rc.3",
+    "file-type": "^14.1.4",
     "http": "0.0.0",
     "iconv-lite": "^0.5.1",
     "jsdom": "^16.2.1",
+    "node-fetch": "^2.6.0",
     "sqlite3": "^4.1.1",
     "tress": "^1.1.4"
   },
