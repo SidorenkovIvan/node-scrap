@@ -148,9 +148,6 @@ q.drain = function () {
     if (GRAB_IMGS) storeImages();
 };
 
-// добавляем в очередь ссылки на категории из меню
-start();
-
 async function imgToBase64(url) {
     let response = await fetch(url);
     let buf = await response.buffer();
@@ -192,3 +189,6 @@ function storeImages() {
         db.close();
     });
 }
+
+// добавляем в очередь ссылки на категории из меню
+start();
