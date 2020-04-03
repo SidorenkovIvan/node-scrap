@@ -14,6 +14,7 @@
   "author": "Sidorenkov Ivan",
   "license": "ISC",
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "chalk": "^3.0.0",
     "cheerio": "^1.0.0-rc.3",
     "file-type": "^14.1.4",
@@ -25,6 +26,7 @@
     "tress": "^1.1.4"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "needle": "^2.3.3",
     "nodemon": "^2.0.2",
     "puppeteer": "^2.1.1",

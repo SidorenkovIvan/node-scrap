@@ -5,6 +5,8 @@ let sqlite3 = require("sqlite3").verbose();
 let fs = require("fs");
 const fetch = require('node-fetch');
 const FileType = require('file-type');
+require("babel-core/register");
+require("babel-polyfill");
 
 let siteUrl = "https://tea4u.by";
 let category = {};
