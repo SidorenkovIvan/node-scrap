@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "engines": {
     "node": "12.16.1"
-  }
+  },
   "description": "node JS for scraping",
   "main": "scraper.js",
   "scripts": {
