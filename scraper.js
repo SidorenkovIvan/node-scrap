@@ -152,22 +152,6 @@ q.drain = function () {
 start();
 
 async function imgToBase64(url) {
-/*
-    fetch(url)
-        .then(response => response.buffer())
-        .then(buffer => {
-            console.log(buffer);
-            // Encode to base64
-            let encodedImage = buffer.toString('base64');
-            //console.log(encodedImage);
-            return buffer
-        })
-        .then(buf => FileType.fromBuffer(buf))
-        .then(type => {
-            console.log(type);
-        });
- */
-
     let response = await fetch(url);
     let buf = await response.buffer();
     let type = await FileType.fromBuffer(buf);
@@ -175,11 +159,6 @@ async function imgToBase64(url) {
     let base64 = buf.toString("base64");
     return prefix + base64;
 }
-
-// const u = "https://tea4u.by/image/cache/catalog/goods/S01735/IMG_9115-330x220.jpg";
-// imgToBase64(u).then(function (base64) {
-//     console.log(base64);
-// });
 
 function storeImages() {
     let db = new sqlite3.Database(DB_NAME);
