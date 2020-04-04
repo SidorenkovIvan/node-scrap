@@ -151,10 +151,10 @@ q.drain = function () {
 async function imgToBase64(url) {
     let response = await fetch(url);
     let buf = await response.buffer();
-    let type = await FileType.fromBuffer(buf);
-    let prefix = "data:" + type.mime + ";base64,";
+    //let type = await FileType.fromBuffer(buf);
+    //let prefix = "data:" + type.mime + ";base64,";
     let base64 = buf.toString("base64");
-    return prefix + base64;
+    return base64;
 }
 
 function storeImages() {
