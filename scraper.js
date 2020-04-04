@@ -148,13 +148,13 @@ q.drain = function () {
     if (GRAB_IMGS) storeImages();
 };
 
-async function imgToBase64(url) {
+async function imgToBase64BLOB(url) {
     let response = await fetch(url);
     let buf = await response.buffer();
     //let type = await FileType.fromBuffer(buf);
     //let prefix = "data:" + type.mime + ";base64,";
     let base64 = buf.toString("base64");
-    return base64;
+    return [base64, buf];
 }
 
 function storeImages() {
@@ -163,10 +163,11 @@ function storeImages() {
         db.run('DROP TABLE IF EXISTS image');
         db.run('CREATE TABLE "image" (' +
             '"url" TEXT NOT NULL UNIQUE,' +
-            '"base64" TEXT NOT NULL,' +
+            '"base64" TEXT,' +
+            '"raw" BLOB NOT NULL,' +
             'PRIMARY KEY("url") );');
 
-        let stmt = db.prepare('INSERT INTO image VALUES (?, ?)');
+        let stmt = db.prepare('INSERT INTO image VALUES (?, ?, ?)');
 
         let imgMap = new Map();
 
@@ -178,12 +179,13 @@ function storeImages() {
             else {
                 imgMap.set(url, 1);
                 console.log('fetch ' + url);
-                const base64 = await imgToBase64(url);
-                stmt.run(url, base64);
+                const data = await imgToBase64BLOB(url);
+                //stmt.run(url, data[0], data[1]);
+                stmt.run(url, null, data[1]);
             }
         }
 
-        console.log(imgMap);
+        //console.log(imgMap);
 
         stmt.finalize();
         db.close();
