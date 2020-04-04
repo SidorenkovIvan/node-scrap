@@ -94,67 +94,67 @@ let q = tress(function(url, callback) {
 q.drain = function () {
     let dataBase = new sqlite3.Database(DB_NAME);
     dataBase.serialize(() => {
-       dataBase.run('DROP TABLE IF EXISTS category');
-       dataBase.run('CREATE TABLE category (' +
-           ' "category_id" INTEGER NOT NULL UNIQUE, ' +
-           ' "title" TEXT, ' +
-           ' "url" TEXT UNIQUE, ' +
-           ' "parent_id" INTEGER DEFAULT 0, ' +
-           ' PRIMARY KEY("category_id") );');
-       let stmt = dataBase.prepare('INSERT INTO category VALUES (?, ?, ?, ?)');
-       for (const u in category)
-           stmt.run(category[u].id, category[u].title, category[u].url, category[u].parentId);
-       stmt.finalize();
-       dataBase.run('DROP TABLE IF EXISTS product');
-       dataBase.run('CREATE TABLE product (' +
-        ' "product_id" INTEGER NOT NULL UNIQUE, ' +
-        ' "imgUrl" TEXT, ' +
-        ' "productTitle" TEXT, ' +
-        ' "productUrl" TEXT, ' +
-        ' "description"	TEXT, ' +
-        ' "images" TEXT, ' +
-        ' "code" TEXT, ' +
-        ' PRIMARY KEY("product_id") );');
-       let stmt1 = dataBase.prepare('INSERT INTO product VALUES (?, ?, ?, ?, ?, ?, ?)');
-       let foreign = [];
-       for (const c in product) {
-           for (let p of product[c].prods) {
-               foreign.push([category[p.categoryURL].id, product[c].id]);
-           }
-           stmt1.run(product[c].id,
-               product[c].prods[0].imgUrl,
-               product[c].prods[0].productTitle,
-               product[c].prods[0].productUrl,
-               product[c].description,
-               product[c].images.join('|'),
-               c);
-       }
-       stmt1.finalize();
-       dataBase.run('DROP TABLE IF EXISTS category_product');
-       dataBase.run('CREATE TABLE category_product (' +
-           ' "category_id" INTEGER NOT NULL, ' +
-           ' "product_id" INTEGER NOT NULL, ' +
-           ' FOREIGN KEY("product_id") REFERENCES "product"("product_id"), ' +
-           ' PRIMARY KEY("category_id","product_id"), ' +
-           ' FOREIGN KEY("category_id") REFERENCES "category"("category_id") );');
-       let stmt2 = dataBase.prepare('INSERT INTO category_product VALUES (?, ?)');
-       for (const f of foreign)
-           stmt2.run(f[0], f[1]);
-       stmt2.finalize();
-       dataBase.close();
+        dataBase.run('DROP TABLE IF EXISTS category');
+        dataBase.run('CREATE TABLE category (' +
+            ' "category_id" INTEGER NOT NULL UNIQUE, ' +
+            ' "title" TEXT, ' +
+            ' "url" TEXT UNIQUE, ' +
+            ' "parent_id" INTEGER DEFAULT 0, ' +
+            ' PRIMARY KEY("category_id") );');
+        let stmt = dataBase.prepare('INSERT INTO category VALUES (?, ?, ?, ?)');
+        for (const u in category)
+            stmt.run(category[u].id, category[u].title, category[u].url, category[u].parentId);
+        stmt.finalize();
+        dataBase.run('DROP TABLE IF EXISTS product');
+        dataBase.run('CREATE TABLE product (' +
+            ' "product_id" INTEGER NOT NULL UNIQUE, ' +
+            ' "imgUrl" TEXT, ' +
+            ' "productTitle" TEXT, ' +
+            ' "productUrl" TEXT, ' +
+            ' "description"	TEXT, ' +
+            ' "images" TEXT, ' +
+            ' "code" TEXT, ' +
+            ' PRIMARY KEY("product_id") );');
+        let stmt1 = dataBase.prepare('INSERT INTO product VALUES (?, ?, ?, ?, ?, ?, ?)');
+        let foreign = [];
+        for (const c in product) {
+            for (let p of product[c].prods) {
+                foreign.push([category[p.categoryURL].id, product[c].id]);
+            }
+            stmt1.run(product[c].id,
+                product[c].prods[0].imgUrl,
+                product[c].prods[0].productTitle,
+                product[c].prods[0].productUrl,
+                product[c].description,
+                product[c].images.join('|'),
+                c);
+        }
+        stmt1.finalize();
+        dataBase.run('DROP TABLE IF EXISTS category_product');
+        dataBase.run('CREATE TABLE category_product (' +
+            ' "category_id" INTEGER NOT NULL, ' +
+            ' "product_id" INTEGER NOT NULL, ' +
+            ' FOREIGN KEY("product_id") REFERENCES "product"("product_id"), ' +
+            ' PRIMARY KEY("category_id","product_id"), ' +
+            ' FOREIGN KEY("category_id") REFERENCES "category"("category_id") );');
+        let stmt2 = dataBase.prepare('INSERT INTO category_product VALUES (?, ?)');
+        for (const f of foreign)
+            stmt2.run(f[0], f[1]);
+        stmt2.finalize();
+        dataBase.close();
     });
     fs.writeFileSync('./data.json', JSON.stringify(product, null, 4));
     //console.log("total unique products " + prodId);
     if (GRAB_IMGS) storeImages();
 };
 
-async function imgToBase64(url) {
+async function imgToBase64BLOB(url) {
     let response = await fetch(url);
     let buf = await response.buffer();
     //let type = await FileType.fromBuffer(buf);
     //let prefix = "data:" + type.mime + ";base64,";
     let base64 = buf.toString("base64");
-    return base64;
+    return [base64, buf];
 }
 
 function storeImages() {
@@ -163,10 +163,11 @@ function storeImages() {
         db.run('DROP TABLE IF EXISTS image');
         db.run('CREATE TABLE "image" (' +
             '"url" TEXT NOT NULL UNIQUE,' +
-            '"base64" TEXT NOT NULL,' +
+            '"base64" TEXT,' +
+            '"raw" BLOB NOT NULL,' +
             'PRIMARY KEY("url") );');
 
-        let stmt = db.prepare('INSERT INTO image VALUES (?, ?)');
+        let stmt = db.prepare('INSERT INTO image VALUES (?, ?, ?)');
 
         let imgMap = new Map();
 
@@ -178,12 +179,13 @@ function storeImages() {
             else {
                 imgMap.set(url, 1);
                 console.log('fetch ' + url);
-                const base64 = await imgToBase64(url);
-                stmt.run(url, base64);
+                const data = await imgToBase64BLOB(url);
+                //stmt.run(url, data[0], data[1]);
+                stmt.run(url, null, data[1]);
             }
         }
 
-        console.log(imgMap);
+        //console.log(imgMap);
 
         stmt.finalize();
         db.close();
