@@ -5,6 +5,7 @@ let sqlite3 = require("sqlite3").verbose();
 let fs = require("fs");
 const fetch = require('node-fetch');
 const FileType = require('file-type');
+const md5 = require('md5');
 
 let siteUrl = "https://tea4u.by";
 let category = {};
@@ -88,12 +89,13 @@ let q = tress(function(url, callback) {
         }
         callback(); //вызываем callback в конце
     });
-}, 10); // запускаем 10 параллельных потоков
+}, 1); // запускаем 10 параллельных потоков !!!
 
 // эта функция выполнится, когда в очереди закончатся ссылки
 q.drain = function () {
     let dataBase = new sqlite3.Database(DB_NAME);
-    dataBase.serialize(() => {
+    let tableString = '';
+    dataBase.serialize(async () => {
        dataBase.run('DROP TABLE IF EXISTS category');
        dataBase.run('CREATE TABLE category (' +
            ' "category_id" INTEGER NOT NULL UNIQUE, ' +
@@ -102,8 +104,11 @@ q.drain = function () {
            ' "parent_id" INTEGER DEFAULT 0, ' +
            ' PRIMARY KEY("category_id") );');
        let stmt = dataBase.prepare('INSERT INTO category VALUES (?, ?, ?, ?)');
-       for (const u in category)
-           stmt.run(category[u].id, category[u].title, category[u].url, category[u].parentId);
+       for (const u in category) {
+           const stmtData = [category[u].id, category[u].title, category[u].url, category[u].parentId];
+           tableString += stmtData.join();
+           stmt.run(stmtData);
+       }
        stmt.finalize();
        dataBase.run('DROP TABLE IF EXISTS product');
        dataBase.run('CREATE TABLE product (' +
@@ -121,13 +126,15 @@ q.drain = function () {
            for (let p of product[c].prods) {
                foreign.push([category[p.categoryURL].id, product[c].id]);
            }
-           stmt1.run(product[c].id,
+           const stmt1Data = [product[c].id,
                product[c].prods[0].imgUrl,
                product[c].prods[0].productTitle,
                product[c].prods[0].productUrl,
                product[c].description,
                product[c].images.join('|'),
-               c);
+               c];
+           tableString += stmt1Data.join();
+           stmt1.run(stmt1Data);
        }
        stmt1.finalize();
        dataBase.run('DROP TABLE IF EXISTS category_product');
@@ -138,14 +145,24 @@ q.drain = function () {
            ' PRIMARY KEY("category_id","product_id"), ' +
            ' FOREIGN KEY("category_id") REFERENCES "category"("category_id") );');
        let stmt2 = dataBase.prepare('INSERT INTO category_product VALUES (?, ?)');
-       for (const f of foreign)
-           stmt2.run(f[0], f[1]);
+       for (const f of foreign) {
+           const stmt2Data = [f[0], f[1]];
+           tableString += stmt2Data.join();
+           stmt2.run(stmt2Data);
+       }
        stmt2.finalize();
+
+       let l = tableString.length;
+       if (GRAB_IMGS) tableString = await storeImages(dataBase, tableString);
+       console.log('length before grab images ' + l);
+       console.log('length after grab images ' + tableString.length);
+       const hash = md5(tableString);
+       console.log(`md5 hash ${hash}`);
        dataBase.close();
     });
+
     fs.writeFileSync('./data.json', JSON.stringify(product, null, 4));
     //console.log("total unique products " + prodId);
-    if (GRAB_IMGS) storeImages();
 };
 
 async function imgToBase64BLOB(url) {
@@ -157,39 +174,38 @@ async function imgToBase64BLOB(url) {
     return [base64, buf];
 }
 
-function storeImages() {
-    let db = new sqlite3.Database(DB_NAME);
-    db.serialize(async () => {
-        db.run('DROP TABLE IF EXISTS image');
-        db.run('CREATE TABLE "image" (' +
-            '"url" TEXT NOT NULL UNIQUE,' +
-            '"base64" TEXT,' +
-            '"raw" BLOB NOT NULL,' +
-            'PRIMARY KEY("url") );');
+async function storeImages(db, tblStr) {
+    db.run('DROP TABLE IF EXISTS image');
+    db.run('CREATE TABLE "image" (' +
+        '"url" TEXT NOT NULL UNIQUE,' +
+        '"base64" TEXT NOT NULL,' +
+        '"raw" BLOB,' +
+        'PRIMARY KEY("url") );');
 
-        let stmt = db.prepare('INSERT INTO image VALUES (?, ?, ?)');
+    let stmt = db.prepare('INSERT INTO image VALUES (?, ?, ?)');
 
-        let imgMap = new Map();
+    let imgMap = new Map();
 
-        for (const code in product) {
-            const url = product[code].prods[0].imgUrl;
-            if (imgMap.has(url)) {
-                imgMap.set(url, imgMap.get(url) + 1);
-            }
-            else {
-                imgMap.set(url, 1);
-                console.log('fetch ' + url);
-                const data = await imgToBase64BLOB(url);
-                //stmt.run(url, data[0], data[1]);
-                stmt.run(url, null, data[1]);
-            }
+    for (const code in product) {
+        const url = product[code].prods[0].imgUrl;
+        if (imgMap.has(url)) {
+            imgMap.set(url, imgMap.get(url) + 1);
         }
+        else {
+            imgMap.set(url, 1);
+            console.log('fetch ' + url);
+            const data = await imgToBase64BLOB(url);
+            const stmtData = [url, data[0], null];
+            tblStr += stmtData.join();
+            stmt.run(stmtData);
+        }
+    }
 
-        //console.log(imgMap);
+    //console.log(imgMap);
 
-        stmt.finalize();
-        db.close();
-    });
+    stmt.finalize();
+
+    return tblStr;
 }
 
 // добавляем в очередь ссылки на категории из меню
