@@ -28,6 +28,7 @@
     "tress": "^1.1.4"
   },
   "devDependencies": {
+    "md5": "^2.2.1",
     "needle": "^2.3.3",
     "nodemon": "^2.0.2",
     "puppeteer": "^2.1.1",
