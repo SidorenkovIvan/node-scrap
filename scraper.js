@@ -14,7 +14,6 @@ let latest = [];
 const DB_NAME = 'data.sqlite';
 const GRAB_IMGS = true;
 
-
 function start() {
     needle.get(siteUrl, (err, res) => {
         if (err) throw err;
