@@ -4,7 +4,6 @@ let tress = require("tress");
 let sqlite3 = require("sqlite3").verbose();
 let fs = require("fs");
 const fetch = require('node-fetch');
-const FileType = require('file-type');
 const md5 = require('md5');
 
 let siteUrl = "https://tea4u.by";
@@ -74,11 +73,12 @@ let q = tress(function(url, callback) {
                 let imgUrl = $(el).find(".image > a > img").attr("src");
                 let a = $(el).find(".caption > a");
                 let productTitle = a.text();
+                let price = $(el).find(".price-detached .price").text();
                 let productUrl = a.attr("href");
                 let categoryURL = productUrl.substr(0, productUrl.lastIndexOf('/'));
                 let categoryTitle = category[categoryURL].title;
                 let productCode = $(el).find(".additional .code > span").text();
-                let p = {imgUrl, productTitle, productUrl, categoryURL, categoryTitle};
+                let p = {imgUrl, productTitle, productUrl, categoryURL, categoryTitle, price};
                 if (!(productCode in product)) {
                     product[productCode] = {id: ++prodId, prods: [p]};
                 } else {
@@ -125,8 +125,9 @@ q.drain = function () {
             ' "description"	TEXT, ' +
             ' "images" TEXT, ' +
             ' "code" TEXT, ' +
+            ' "price" TEXT, ' +
             ' PRIMARY KEY("product_id") );');
-        let stmt1 = dataBase.prepare('INSERT INTO product VALUES (?, ?, ?, ?, ?, ?, ?)');
+        let stmt1 = dataBase.prepare('INSERT INTO product VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
         let foreign = [];
         let prodTitleToId = new Map();
         for (const c in product) {
@@ -140,7 +141,8 @@ q.drain = function () {
                 product[c].prods[0].productUrl,
                 product[c].description,
                 product[c].images.join('|'),
-                c];
+                c,
+                product[c].prods[0].price];
             tableString += stmt1Data.join();
             stmt1.run(stmt1Data);
         }
@@ -168,6 +170,7 @@ q.drain = function () {
         let stmt3 = dataBase.prepare('INSERT INTO latest VALUES (?, ?)');
         let latestData = latest.map(value => [ prodTitleToId.get(value.title), value.order ] );
         console.log(latestData);
+        //console.log(prices);
         for (const stmt3Data of latestData) {
             tableString += stmt3Data.join();
             stmt3.run(stmt3Data);
