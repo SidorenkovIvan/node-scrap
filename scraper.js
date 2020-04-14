@@ -154,8 +154,7 @@ q.drain = function () {
             ' PRIMARY KEY("category_id","product_id"), ' +
             ' FOREIGN KEY("category_id") REFERENCES "category"("category_id") );');
         let stmt2 = dataBase.prepare('INSERT INTO category_product VALUES (?, ?)');
-        for (const f of foreign) {
-            const stmt2Data = [f[0], f[1]];
+        for (const stmt2Data of foreign) {
             tableString += stmt2Data.join();
             stmt2.run(stmt2Data);
         }
@@ -169,8 +168,7 @@ q.drain = function () {
         let stmt3 = dataBase.prepare('INSERT INTO latest VALUES (?, ?)');
         let latestData = latest.map(value => [ prodTitleToId.get(value.title), value.order ] );
         console.log(latestData);
-        for (const ld of latestData) {
-            const stmt3Data = [ld[0], ld[1]];
+        for (const stmt3Data of latestData) {
             tableString += stmt3Data.join();
             stmt3.run(stmt3Data);
         }
