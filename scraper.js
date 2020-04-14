@@ -11,6 +11,7 @@ let siteUrl = "https://tea4u.by";
 let category = {};
 let product = {};
 let prodId = 0;
+let latest = [];
 const DB_NAME = 'data.sqlite';
 const GRAB_IMGS = true;
 
@@ -35,6 +36,10 @@ function start() {
             if (pu in category) category[cu].parentId = category[pu].id;
         }
         //console.log(category);
+        $(".owl-moneymaker2-products-latest .product-thumb .caption > a").each(
+            (ind, el) => latest.push( { title: $(el).text(), order: ind } )
+        );
+        console.log(latest);
     });
 }
 
@@ -110,6 +115,7 @@ q.drain = function () {
             stmt.run(stmtData);
         }
         stmt.finalize();
+
         dataBase.run('DROP TABLE IF EXISTS product');
         dataBase.run('CREATE TABLE product (' +
             ' "product_id" INTEGER NOT NULL UNIQUE, ' +
@@ -122,10 +128,12 @@ q.drain = function () {
             ' PRIMARY KEY("product_id") );');
         let stmt1 = dataBase.prepare('INSERT INTO product VALUES (?, ?, ?, ?, ?, ?, ?)');
         let foreign = [];
+        let prodTitleToId = new Map();
         for (const c in product) {
             for (let p of product[c].prods) {
                 foreign.push([category[p.categoryURL].id, product[c].id]);
             }
+            prodTitleToId.set(product[c].prods[0].productTitle, product[c].id);
             const stmt1Data = [product[c].id,
                 product[c].prods[0].imgUrl,
                 product[c].prods[0].productTitle,
@@ -137,6 +145,7 @@ q.drain = function () {
             stmt1.run(stmt1Data);
         }
         stmt1.finalize();
+
         dataBase.run('DROP TABLE IF EXISTS category_product');
         dataBase.run('CREATE TABLE category_product (' +
             ' "category_id" INTEGER NOT NULL, ' +
@@ -152,18 +161,33 @@ q.drain = function () {
         }
         stmt2.finalize();
 
+        dataBase.run('DROP TABLE IF EXISTS latest');
+        dataBase.run('CREATE TABLE latest (' +
+            ' "product_id" INTEGER NOT NULL UNIQUE, ' +
+            ' "order" INTEGER NOT NULL UNIQUE, ' +
+            ' PRIMARY KEY("product_id") );');
+        let stmt3 = dataBase.prepare('INSERT INTO latest VALUES (?, ?)');
+        let latestData = latest.map(value => [ prodTitleToId.get(value.title), value.order ] );
+        console.log(latestData);
+        for (const ld of latestData) {
+            const stmt3Data = [ld[0], ld[1]];
+            tableString += stmt3Data.join();
+            stmt3.run(stmt3Data);
+        }
+        stmt3.finalize();
 
         dataBase.run('DROP TABLE IF EXISTS hash_table');
         dataBase.run('CREATE TABLE hash_table ("hash" TEXT NOT NULL, PRIMARY KEY("hash") );');
-        let stmt3 = dataBase.prepare('INSERT INTO hash_table VALUES (?)');
+        let stmt4 = dataBase.prepare('INSERT INTO hash_table VALUES (?)');
         let l = tableString.length;
         if (GRAB_IMGS) tableString = await storeImages(dataBase, tableString);
         console.log('length before grab images ' + l);
         console.log('length after grab images ' + tableString.length);
         const hash = md5(tableString);
         console.log(`md5 hash ${hash}`);
-        stmt3.run(hash);
-        stmt3.finalize();
+        stmt4.run(hash);
+        stmt4.finalize();
+
         dataBase.close();
     });
 
