@@ -63,6 +63,29 @@ let q = tress(function(url, callback) {
                     imgs.push( $(e).attr("href") );
                 });
                 product[code].images = imgs;
+                product[code].canonical = $("head link[rel='canonical']").attr("href");
+                let price = "";
+                let $opts = $("#product .options");
+                if ($opts.length > 0) {
+                    price = "{" + $(".control-label", $opts).text() + "}";
+                    price += $(".radio", $opts).map(
+                        (ind, el) => {
+                            let $spans = $(el).find("span");
+                            if ($spans.length > 1) {
+                                // акция (скидка)
+                                let $copy = $("<div>" + $spans.eq(0).html() + "</div>");
+                                $copy.find("span").remove();
+                                $spans = $copy;
+                            }
+                            return $spans.text().replace(/\s+/g, " ").trim();
+                        }
+                    ).get().join("|");
+                } else if ($("#product #special").length === 1) {
+                    price = $("#product #special").text();
+                } else {
+                    price = $("#product #price").text();
+                }
+                product[code].price = price;
             }
         }
         else {
@@ -72,12 +95,11 @@ let q = tress(function(url, callback) {
                 let imgUrl = $(el).find(".image > a > img").attr("src");
                 let a = $(el).find(".caption > a");
                 let productTitle = a.text();
-                let price = $(el).find(".price-detached .price").text();
                 let productUrl = a.attr("href");
                 let categoryURL = productUrl.substr(0, productUrl.lastIndexOf('/'));
                 let categoryTitle = category[categoryURL].title;
                 let productCode = $(el).find(".additional .code > span").text();
-                let p = {imgUrl, productTitle, productUrl, categoryURL, categoryTitle, price};
+                let p = {imgUrl, productTitle, productUrl, categoryURL, categoryTitle};
                 if (!(productCode in product)) {
                     product[productCode] = {id: ++prodId, prods: [p]};
                 } else {
@@ -93,7 +115,7 @@ let q = tress(function(url, callback) {
         }
         callback(); //вызываем callback в конце
     });
-}, 1); // запускаем 10 параллельных потоков !!!
+}, 1); // если запустить параллельно больше чем 1 поток, то хэш таблиц будет всегда разным
 
 // эта функция выполнится, когда в очереди закончатся ссылки
 q.drain = function () {
@@ -141,7 +163,7 @@ q.drain = function () {
                 product[c].description,
                 product[c].images.join('|'),
                 c,
-                product[c].prods[0].price];
+                product[c].price];
             tableString += stmt1Data.join();
             stmt1.run(stmt1Data);
         }
@@ -169,7 +191,6 @@ q.drain = function () {
         let stmt3 = dataBase.prepare('INSERT INTO latest VALUES (?, ?)');
         let latestData = latest.map(value => [ prodTitleToId.get(value.title), value.order ] );
         console.log(latestData);
-        //console.log(prices);
         for (const stmt3Data of latestData) {
             tableString += stmt3Data.join();
             stmt3.run(stmt3Data);
