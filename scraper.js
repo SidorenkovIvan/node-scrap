@@ -187,7 +187,7 @@ q.drain = function () {
         dataBase.run('CREATE TABLE latest (' +
             ' "product_id" INTEGER NOT NULL UNIQUE, ' +
             ' "order" INTEGER NOT NULL UNIQUE, ' +
-            ' PRIMARY KEY("product_id") );');
+            ' PRIMARY KEY("product_id") REFERENCES "product"("product_id") );');
         let stmt3 = dataBase.prepare('INSERT INTO latest VALUES (?, ?)');
         let latestData = latest.map(value => [ prodTitleToId.get(value.title), value.order ] );
         console.log(latestData);
@@ -231,7 +231,7 @@ async function storeImages(db, tblStr) {
         '"url" TEXT NOT NULL UNIQUE,' +
         '"base64" TEXT NOT NULL,' +
         '"raw" BLOB,' +
-        'PRIMARY KEY("url") );');
+        'PRIMARY KEY("url") REFERENCES "product"("imgUrl"));');
 
     let stmt = db.prepare('INSERT INTO image VALUES (?, ?, ?)');
 
