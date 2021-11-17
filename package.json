@@ -2,7 +2,7 @@
   "name": "node-scrap",
   "version": "1.0.0",
   "engines": {
-    "node": "12.16.1"
+    "node": "14.15.4"
   },
   "description": "node JS for scraping",
   "main": "scraper.js",
