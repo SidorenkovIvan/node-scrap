@@ -3,7 +3,7 @@ let cheerio = require("cheerio");
 let tress = require("tress");
 let sqlite3 = require("sqlite3").verbose();
 let fs = require("fs");
-const fetch = require('node-fetch');
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 const md5 = require('md5');
 
 let siteUrl = "https://tea4u.by";
